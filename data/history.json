@@ -1,0 +1,596 @@
+[
+  {
+    "month": 1,
+    "day": 1,
+    "year": 1983,
+    "kind": "milestone",
+    "title": "ARPANET switches to TCP/IP",
+    "text": "The ARPANET adopted the TCP/IP protocols, so that separate computer networks could talk to one another. This switch is often described as the birth of the modern Internet.",
+    "related_id": null
+  },
+  {
+    "month": 1,
+    "day": 5,
+    "year": 1769,
+    "kind": "invention",
+    "title": "Watt patents the separate condenser",
+    "text": "James Watt received a patent for a steam engine with a separate condenser, which wasted far less fuel than earlier engines.",
+    "related_id": "watt-steam-engine"
+  },
+  {
+    "month": 1,
+    "day": 7,
+    "year": 1610,
+    "kind": "discovery",
+    "title": "Galileo spots moons around Jupiter",
+    "text": "Galileo Galilei pointed his telescope at Jupiter and noticed small 'stars' beside it. Over the following nights he realised they were moons orbiting the planet.",
+    "related_id": null
+  },
+  {
+    "month": 1,
+    "day": 9,
+    "year": 2007,
+    "kind": "invention",
+    "title": "The first iPhone is unveiled",
+    "text": "Steve Jobs presented the first iPhone, which combined a phone, a music player and an internet device with a touch screen.",
+    "related_id": null
+  },
+  {
+    "month": 1,
+    "day": 11,
+    "year": 1922,
+    "kind": "discovery",
+    "title": "First insulin treatment of a patient",
+    "text": "Fourteen-year-old Leonard Thompson, who had diabetes, was given an injection of insulin extract in Toronto. His blood sugar fell, and insulin went on to become a life-saving medicine.",
+    "related_id": "insulin-treatment"
+  },
+  {
+    "month": 1,
+    "day": 24,
+    "year": 1984,
+    "kind": "invention",
+    "title": "Apple introduces the Macintosh",
+    "text": "The Macintosh brought windows, icons and a mouse to ordinary home and office users.",
+    "related_id": null
+  },
+  {
+    "month": 1,
+    "day": 27,
+    "year": 1880,
+    "kind": "invention",
+    "title": "Edison's electric lamp patent",
+    "text": "Thomas Edison was granted a US patent for his incandescent electric lamp with a carbon filament, a step towards practical electric lighting.",
+    "related_id": null
+  },
+  {
+    "month": 1,
+    "day": 29,
+    "year": 1886,
+    "kind": "invention",
+    "title": "Benz applies for a motor-car patent",
+    "text": "Karl Benz applied for a patent for his Motorwagen, a three-wheeled vehicle with a petrol engine that is often regarded as the first practical car.",
+    "related_id": null
+  },
+  {
+    "month": 2,
+    "day": 11,
+    "year": 2016,
+    "kind": "discovery",
+    "title": "Gravitational waves detected",
+    "text": "Scientists of the LIGO and Virgo collaborations announced the first direct detection of gravitational waves, ripples in space-time that Einstein had predicted a century earlier.",
+    "related_id": null
+  },
+  {
+    "month": 2,
+    "day": 14,
+    "year": 1876,
+    "kind": "invention",
+    "title": "Two telephone filings on the same day",
+    "text": "Alexander Graham Bell and Elisha Gray each took telephone paperwork to the patent office on the same day, one reason the telephone's invention is still a famous dispute.",
+    "related_id": "telephone"
+  },
+  {
+    "month": 2,
+    "day": 14,
+    "year": 2005,
+    "kind": "invention",
+    "title": "YouTube.com is registered",
+    "text": "The domain name youtube.com was registered, the start of the website that would change how the world watches video.",
+    "related_id": "youtube"
+  },
+  {
+    "month": 2,
+    "day": 18,
+    "year": 1930,
+    "kind": "discovery",
+    "title": "Pluto is discovered",
+    "text": "Clyde Tombaugh found Pluto at Lowell Observatory by comparing photographs of the night sky taken on different dates.",
+    "related_id": null
+  },
+  {
+    "month": 2,
+    "day": 21,
+    "year": 1804,
+    "kind": "invention",
+    "title": "First steam locomotive journey on rails",
+    "text": "Richard Trevithick's locomotive pulled a train loaded with iron and passengers along a tramway at Penydarren in Wales.",
+    "related_id": null
+  },
+  {
+    "month": 2,
+    "day": 28,
+    "year": 1953,
+    "kind": "discovery",
+    "title": "The DNA double helix is worked out",
+    "text": "This is the traditional date for the moment when Francis Crick and James Watson worked out the double-helix structure of DNA, building on X-ray work by Rosalind Franklin and others.",
+    "related_id": null
+  },
+  {
+    "month": 3,
+    "day": 7,
+    "year": 1876,
+    "kind": "invention",
+    "title": "Bell's telephone patent is granted",
+    "text": "The US Patent Office granted Alexander Graham Bell patent No. 174,465, the patent that covered the telephone.",
+    "related_id": "telephone"
+  },
+  {
+    "month": 3,
+    "day": 10,
+    "year": 1876,
+    "kind": "invention",
+    "title": "The first telephone call",
+    "text": "In Boston, Bell spoke into his new device and called his assistant Thomas Watson, who heard him clearly through the receiver in the next room.",
+    "related_id": "telephone"
+  },
+  {
+    "month": 3,
+    "day": 12,
+    "year": 1989,
+    "kind": "invention",
+    "title": "A proposal for the World Wide Web",
+    "text": "Tim Berners-Lee gave his boss at CERN a proposal for sharing information through linked pages, the idea that grew into the World Wide Web.",
+    "related_id": null
+  },
+  {
+    "month": 3,
+    "day": 13,
+    "year": 1781,
+    "kind": "discovery",
+    "title": "Herschel discovers Uranus",
+    "text": "William Herschel noticed a new object in the sky that turned out to be a planet, the first one discovered with a telescope.",
+    "related_id": null
+  },
+  {
+    "month": 3,
+    "day": 24,
+    "year": 1882,
+    "kind": "discovery",
+    "title": "Koch announces the cause of tuberculosis",
+    "text": "Robert Koch announced that tuberculosis is caused by a bacterium, a key moment for the germ theory of disease.",
+    "related_id": null
+  },
+  {
+    "month": 3,
+    "day": 26,
+    "year": 1953,
+    "kind": "discovery",
+    "title": "Salk announces a successful polio vaccine",
+    "text": "Jonas Salk announced that his vaccine against polio had been tested successfully, offering hope of protecting children from a dreaded disease.",
+    "related_id": null
+  },
+  {
+    "month": 4,
+    "day": 3,
+    "year": 1973,
+    "kind": "invention",
+    "title": "The first handheld mobile phone call",
+    "text": "Martin Cooper of Motorola made a call on a prototype handheld cellular phone, a bulky ancestor of today's smartphones.",
+    "related_id": null
+  },
+  {
+    "month": 4,
+    "day": 10,
+    "year": 2019,
+    "kind": "discovery",
+    "title": "The first image of a black hole",
+    "text": "The Event Horizon Telescope collaboration released the first picture of the shadow of a black hole, at the centre of the galaxy M87.",
+    "related_id": null
+  },
+  {
+    "month": 4,
+    "day": 12,
+    "year": 1955,
+    "kind": "discovery",
+    "title": "Polio vaccine declared safe and effective",
+    "text": "The results of a huge field trial were announced and showed that the Salk polio vaccine was safe and worked.",
+    "related_id": null
+  },
+  {
+    "month": 4,
+    "day": 23,
+    "year": 2005,
+    "kind": "invention",
+    "title": "The first YouTube video",
+    "text": "Co-founder Jawed Karim uploaded 'Me at the zoo', the first video on YouTube, which lasts only about 19 seconds.",
+    "related_id": "youtube"
+  },
+  {
+    "month": 4,
+    "day": 25,
+    "year": 1954,
+    "kind": "invention",
+    "title": "Bell Labs unveils the silicon solar cell",
+    "text": "Researchers at Bell Laboratories announced the first practical solar cell made of silicon, able to turn sunlight into useful electricity.",
+    "related_id": "solar-cell"
+  },
+  {
+    "month": 5,
+    "day": 8,
+    "year": 1980,
+    "kind": "milestone",
+    "title": "Smallpox declared eradicated",
+    "text": "The World Health Organization announced that smallpox had been wiped out, the first human disease to be eradicated.",
+    "related_id": null
+  },
+  {
+    "month": 5,
+    "day": 14,
+    "year": 1796,
+    "kind": "discovery",
+    "title": "Jenner's first smallpox vaccination",
+    "text": "Edward Jenner inoculated eight-year-old James Phipps with cowpox material and later showed that it protected him against smallpox.",
+    "related_id": null
+  },
+  {
+    "month": 5,
+    "day": 20,
+    "year": 1873,
+    "kind": "invention",
+    "title": "Patent for riveted work trousers",
+    "text": "Jacob Davis and Levi Strauss received a US patent for strengthening work trousers with metal rivets, the beginning of blue jeans.",
+    "related_id": "jeans"
+  },
+  {
+    "month": 5,
+    "day": 24,
+    "year": 1844,
+    "kind": "invention",
+    "title": "The Washington–Baltimore telegraph line opens",
+    "text": "Samuel Morse sent the message 'What hath God wrought' from Washington to Baltimore to open the first long-distance telegraph line in the United States.",
+    "related_id": "morse-code"
+  },
+  {
+    "month": 5,
+    "day": 29,
+    "year": 1919,
+    "kind": "discovery",
+    "title": "An eclipse tests general relativity",
+    "text": "During a solar eclipse, astronomers measured how starlight bends as it passes the Sun. The results supported Einstein's theory of general relativity.",
+    "related_id": null
+  },
+  {
+    "month": 6,
+    "day": 2,
+    "year": 1896,
+    "kind": "invention",
+    "title": "Marconi patents wireless telegraphy",
+    "text": "Guglielmo Marconi applied for a British patent for sending signals with radio waves, without wires.",
+    "related_id": null
+  },
+  {
+    "month": 6,
+    "day": 4,
+    "year": 1783,
+    "kind": "invention",
+    "title": "The Montgolfier hot-air balloon",
+    "text": "The Montgolfier brothers publicly launched a large hot-air balloon in the French town of Annonay.",
+    "related_id": null
+  },
+  {
+    "month": 6,
+    "day": 6,
+    "year": 1882,
+    "kind": "invention",
+    "title": "Patent for the electric iron",
+    "text": "Henry Seely received a US patent for an electric flatiron that was heated by electric current instead of a fire.",
+    "related_id": "electric-iron"
+  },
+  {
+    "month": 6,
+    "day": 23,
+    "year": 1868,
+    "kind": "invention",
+    "title": "Sholes, Glidden and Soule patent a typewriter",
+    "text": "Christopher Latham Sholes, Carlos Glidden and Samuel Soule received a US patent for a typewriter, the ancestor of the QWERTY keyboard.",
+    "related_id": "qwerty-keyboard"
+  },
+  {
+    "month": 7,
+    "day": 4,
+    "year": 2012,
+    "kind": "discovery",
+    "title": "The Higgs boson announcement",
+    "text": "Scientists at CERN announced the discovery of a new particle consistent with the Higgs boson, which helps explain how particles get their mass.",
+    "related_id": null
+  },
+  {
+    "month": 7,
+    "day": 5,
+    "year": 1687,
+    "kind": "discovery",
+    "title": "Newton publishes the Principia",
+    "text": "Isaac Newton's Principia set out the laws of motion and of universal gravitation and laid the foundations of classical mechanics.",
+    "related_id": null
+  },
+  {
+    "month": 7,
+    "day": 5,
+    "year": 1996,
+    "kind": "discovery",
+    "title": "Dolly the sheep is born",
+    "text": "Dolly, the first mammal cloned from an adult cell, was born at the Roslin Institute in Scotland.",
+    "related_id": null
+  },
+  {
+    "month": 7,
+    "day": 6,
+    "year": 1885,
+    "kind": "discovery",
+    "title": "Pasteur's first rabies vaccination",
+    "text": "Louis Pasteur gave a rabies vaccine to a nine-year-old boy who had been bitten by a rabid dog. The boy survived.",
+    "related_id": null
+  },
+  {
+    "month": 7,
+    "day": 17,
+    "year": 1902,
+    "kind": "invention",
+    "title": "Carrier designs modern air conditioning",
+    "text": "Willis Carrier completed drawings for a system that controlled both temperature and humidity in a printing plant in Brooklyn.",
+    "related_id": "air-conditioning"
+  },
+  {
+    "month": 8,
+    "day": 1,
+    "year": 1774,
+    "kind": "discovery",
+    "title": "Priestley isolates oxygen",
+    "text": "Joseph Priestley heated mercury oxide and collected a gas that made flames burn brighter. It was later named oxygen.",
+    "related_id": null
+  },
+  {
+    "month": 8,
+    "day": 12,
+    "year": 1981,
+    "kind": "invention",
+    "title": "IBM launches the Personal Computer",
+    "text": "IBM introduced the IBM PC, which helped make computers common in offices and homes.",
+    "related_id": null
+  },
+  {
+    "month": 8,
+    "day": 19,
+    "year": 1839,
+    "kind": "invention",
+    "title": "The daguerreotype is announced",
+    "text": "The French government announced Louis Daguerre's photographic process and offered it as a gift to the world.",
+    "related_id": null
+  },
+  {
+    "month": 8,
+    "day": 27,
+    "year": 1859,
+    "kind": "invention",
+    "title": "The first successful US oil well",
+    "text": "Edwin Drake struck oil at Titusville, Pennsylvania, which started the modern petroleum industry. Oil soon supplied kerosene for lamps.",
+    "related_id": "kerosene"
+  },
+  {
+    "month": 8,
+    "day": 29,
+    "year": 1831,
+    "kind": "discovery",
+    "title": "Faraday discovers electromagnetic induction",
+    "text": "Michael Faraday saw that a changing magnetic field could make an electric current appear in a coil of wire. His discovery led to electric generators and transformers.",
+    "related_id": "electromagnetic-induction"
+  },
+  {
+    "month": 9,
+    "day": 3,
+    "year": 1821,
+    "kind": "discovery",
+    "title": "Faraday makes electricity produce motion",
+    "text": "Michael Faraday showed that a wire carrying current could be made to rotate around a magnet, the first electric motor in principle.",
+    "related_id": "electric-motor"
+  },
+  {
+    "month": 9,
+    "day": 4,
+    "year": 1882,
+    "kind": "invention",
+    "title": "Edison's Pearl Street Station starts work",
+    "text": "Thomas Edison's power station in New York began supplying electricity to customers, one of the first central power stations in the world.",
+    "related_id": null
+  },
+  {
+    "month": 9,
+    "day": 9,
+    "year": 1843,
+    "kind": "invention",
+    "title": "Nancy Johnson patents the ice cream freezer",
+    "text": "Nancy Johnson received a US patent for a hand-cranked freezer that stirred cream inside a tub of ice and salt.",
+    "related_id": "ice-cream-maker"
+  },
+  {
+    "month": 9,
+    "day": 10,
+    "year": 1846,
+    "kind": "invention",
+    "title": "Howe patents the lockstitch sewing machine",
+    "text": "Elias Howe received a US patent for a sewing machine that used a needle with the eye near its point to make a lockstitch.",
+    "related_id": "sewing-machine"
+  },
+  {
+    "month": 9,
+    "day": 27,
+    "year": 1825,
+    "kind": "invention",
+    "title": "The first public steam railway opens",
+    "text": "The Stockton and Darlington Railway in England opened, with steam locomotives pulling passenger and goods trains.",
+    "related_id": null
+  },
+  {
+    "month": 9,
+    "day": 28,
+    "year": 1928,
+    "kind": "discovery",
+    "title": "Fleming notices penicillin",
+    "text": "Alexander Fleming came back from holiday and saw that a mould had killed the bacteria around it on a dish, which led to the discovery of penicillin.",
+    "related_id": "penicillin"
+  },
+  {
+    "month": 10,
+    "day": 4,
+    "year": 1957,
+    "kind": "milestone",
+    "title": "Sputnik 1 enters orbit",
+    "text": "The Soviet Union launched Sputnik 1, the first artificial satellite, which opened the space age.",
+    "related_id": null
+  },
+  {
+    "month": 10,
+    "day": 8,
+    "year": 1945,
+    "kind": "invention",
+    "title": "A patent for microwave cooking",
+    "text": "Raytheon filed a patent application based on Percy Spencer's discovery that microwaves could cook food, which led to the microwave oven.",
+    "related_id": "microwave-oven"
+  },
+  {
+    "month": 10,
+    "day": 14,
+    "year": 1947,
+    "kind": "milestone",
+    "title": "Breaking the sound barrier",
+    "text": "Test pilot Chuck Yeager flew the Bell X-1 faster than the speed of sound in level flight.",
+    "related_id": "airplane"
+  },
+  {
+    "month": 10,
+    "day": 29,
+    "year": 1969,
+    "kind": "milestone",
+    "title": "The first ARPANET message",
+    "text": "The first message between two computers, at UCLA and the Stanford Research Institute, was sent over the ARPANET, the forerunner of the Internet. The system crashed after the first two letters.",
+    "related_id": null
+  },
+  {
+    "month": 11,
+    "day": 8,
+    "year": 1895,
+    "kind": "discovery",
+    "title": "Röntgen discovers X-rays",
+    "text": "Wilhelm Röntgen noticed a mysterious glow and found invisible rays that pass through paper, wood and flesh to make images of bones.",
+    "related_id": null
+  },
+  {
+    "month": 11,
+    "day": 21,
+    "year": 1783,
+    "kind": "invention",
+    "title": "The first free flight by humans",
+    "text": "Pilâtre de Rozier and the Marquis d'Arlandes flew over Paris in a Montgolfier hot-air balloon.",
+    "related_id": null
+  },
+  {
+    "month": 11,
+    "day": 24,
+    "year": 1859,
+    "kind": "discovery",
+    "title": "'On the Origin of Species' is published",
+    "text": "Charles Darwin's book explained evolution by natural selection and changed biology for ever.",
+    "related_id": null
+  },
+  {
+    "month": 11,
+    "day": 30,
+    "year": 2022,
+    "kind": "invention",
+    "title": "ChatGPT is released",
+    "text": "OpenAI released ChatGPT to the public. The chatbot quickly became one of the fastest-growing apps in history.",
+    "related_id": "chatgpt"
+  },
+  {
+    "month": 12,
+    "day": 2,
+    "year": 1942,
+    "kind": "milestone",
+    "title": "The first nuclear chain reaction",
+    "text": "Enrico Fermi's team at the University of Chicago started the first controlled, self-sustaining nuclear chain reaction.",
+    "related_id": null
+  },
+  {
+    "month": 12,
+    "day": 7,
+    "year": 1888,
+    "kind": "invention",
+    "title": "Dunlop patents the pneumatic tyre",
+    "text": "John Boyd Dunlop was granted a British patent for an air-filled rubber tyre, which he had first made to give his son's tricycle a smoother ride.",
+    "related_id": "pneumatic-tyre"
+  },
+  {
+    "month": 12,
+    "day": 12,
+    "year": 1901,
+    "kind": "invention",
+    "title": "A radio signal across the Atlantic",
+    "text": "Guglielmo Marconi reported hearing the Morse letter 'S' in Newfoundland, sent from Cornwall across the Atlantic Ocean.",
+    "related_id": "morse-code"
+  },
+  {
+    "month": 12,
+    "day": 17,
+    "year": 1903,
+    "kind": "invention",
+    "title": "The Wright brothers fly",
+    "text": "At Kitty Hawk, North Carolina, Orville and Wilbur Wright made the first powered, controlled flights of a heavier-than-air machine.",
+    "related_id": "airplane"
+  },
+  {
+    "month": 12,
+    "day": 21,
+    "year": 1891,
+    "kind": "invention",
+    "title": "The first basketball game",
+    "text": "James Naismith's students played the first game of basketball in Springfield, Massachusetts, using peach baskets as goals.",
+    "related_id": "basketball"
+  },
+  {
+    "month": 12,
+    "day": 23,
+    "year": 1947,
+    "kind": "invention",
+    "title": "The transistor is demonstrated",
+    "text": "Scientists at Bell Labs demonstrated the first working transistor, the tiny switch at the heart of modern electronics.",
+    "related_id": null
+  },
+  {
+    "month": 12,
+    "day": 28,
+    "year": 1886,
+    "kind": "invention",
+    "title": "Cochrane patents the dishwasher",
+    "text": "Josephine Cochrane received a US patent for a dishwasher in which a motor sprayed soapy water onto dishes held in wire racks.",
+    "related_id": "dishwasher"
+  },
+  {
+    "month": 12,
+    "day": 28,
+    "year": 1895,
+    "kind": "invention",
+    "title": "The first public film screening",
+    "text": "The Lumière brothers showed moving pictures to a paying audience in a Paris café, a key moment in the history of cinema.",
+    "related_id": null
+  }
+]

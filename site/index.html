@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>__MUSEUM__: a museum of inventions inside Telegram</title>
+  <meta name="description" content="__MUSEUM__ is an educational Telegram bot: a virtual museum with __N_EXHIBITS__ exhibits in __N_HALLS__ halls, from __YEAR_MIN__ to __YEAR_MAX__. Walk the halls, try the quiz and see what happened on this day.">
+  <meta name="theme-color" content="#f2ebdb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1116" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="__MUSEUM__: a museum that fits in Telegram">
+  <meta property="og:description" content="__N_EXHIBITS__ exhibits, __N_HALLS__ halls, __YEAR_MIN__ to __YEAR_MAX__. Open the bot, or walk the halls right in your browser.">
+  <meta property="og:image" content="__OG_IMAGE__">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="__MUSEUM__: a museum that fits in Telegram">
+  <meta name="twitter:description" content="__N_EXHIBITS__ exhibits, __N_HALLS__ halls, __YEAR_MIN__ to __YEAR_MAX__.">
+  <meta name="twitter:image" content="__OG_IMAGE__">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <script>
+    // Lights: remembered choice first, the system setting otherwise. Runs before paint.
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('woi-theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t;
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the exhibition</a>
+
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top" aria-label="__MUSEUM__, back to the entrance">
+      <span class="nav__token" id="nav-token"></span>
+      <span class="nav__name">__MUSEUM__</span>
+    </a>
+    <nav class="nav__links" id="nav-links" aria-label="Sections">
+      <a href="#halls">Halls</a>
+      <a href="#catalogue">Catalogue</a>
+      <a href="#atlas">Map</a>
+      <a href="#this-day">This Day</a>
+      <a href="#quiz-room">Quiz</a>
+      <a href="#visitor-guide">Guide</a>
+      <a href="#workshop">Workshop</a>
+    </nav>
+    <div class="nav__tools">
+      <button class="lamp" id="theme-toggle" type="button" aria-pressed="false">
+        <span class="lamp__plate" aria-hidden="true"><span class="lamp__rocker"></span></span>
+        <span class="lamp__text">Lights</span>
+      </button>
+      <a class="btn btn--primary btn--small" href="__BOT_URL__" target="_blank" rel="noopener">Open in Telegram</a>
+      <button class="nav__menu" id="nav-menu" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ───────────────────────────── Entrance -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__gears" aria-hidden="true"></div>
+      <div class="hero__copy">
+        <h1 id="hero-title">World of <span>Inventions</span></h1>
+        <p class="hero__line">A museum of inventions that lives in your Telegram.</p>
+        <p class="hero__sub">__N_EXHIBITS__ exhibits in __N_HALLS__ halls, from the __FIRST_NAME__ of __YEAR_MIN__ to __LAST_NAME__ in __YEAR_MAX__. No queue, no closing time, no gift shop.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="__BOT_URL__" target="_blank" rel="noopener"><span>Open in Telegram</span><svg class="icon-arrow" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a>
+          <a class="btn" href="#halls">Take the tour</a>
+        </div>
+        <p class="hero__ref">Collection ref. WOI · __YEAR_MIN__ to __YEAR_MAX__ · admission free</p>
+      </div>
+      <div class="hero__phone" id="phone"></div>
+    </section>
+
+    <!-- ───────────────────────────── The collection in numbers -->
+    <section class="ledger" aria-labelledby="ledger-title">
+      <div class="wrap">
+        <h2 class="ledger__title" id="ledger-title">Accession register</h2>
+        <p class="ledger__sub">Counted from the bot’s own data files when this page was built.</p>
+        <ol class="ledger__rows" id="ledger-rows"></ol>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────── The Halls -->
+    <section class="halls" id="halls" aria-labelledby="halls-title">
+      <div class="wrap section-head">
+        <p class="eyebrow">Permanent exhibition</p>
+        <h2 id="halls-title">Every invention has a room. Every room has a century.</h2>
+        <p class="lead">__N_HALLS__ halls stand on one timeline. Keep scrolling and the floor carries you sideways, from candlelight to screen glow. Stop at any plinth to open its display case.</p>
+      </div>
+      <div class="halls__stage" id="halls-stage">
+        <div class="halls__hud">
+          <p class="halls__now" id="halls-hud-name"></p>
+          <div class="halls__jumps" id="halls-jumps" role="group" aria-label="Jump to a hall"></div>
+        </div>
+        <div class="halls__track" id="halls-track"></div>
+        <div class="halls__progress" id="halls-progress" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────── Catalogue -->
+    <section class="explorer" id="catalogue" aria-labelledby="catalogue-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Card catalogue</p>
+          <h2 id="catalogue-title">All __N_EXHIBITS__ exhibits, one drawer</h2>
+          <p class="lead">Type a word, or narrow the drawer by hall, country and period, in any combination. This is the bot’s Search &amp; Filters, rebuilt for a mouse: same fields searched, same spelling rules.</p>
+          <p class="section-head__bot"><a class="btn btn--ghost btn--small" href="__BOT_URL__?start=catalog" target="_blank" rel="noopener">Catalogue in the bot</a> <a class="btn btn--ghost btn--small" href="__BOT_URL__?start=search" target="_blank" rel="noopener">Search in the bot</a></p>
+        </div>
+        <div id="explorer"></div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────── Map -->
+    <section class="atlas" id="atlas" aria-labelledby="atlas-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Invention map</p>
+          <h2 id="atlas-title">Where the ideas came from</h2>
+          <p class="lead">Pick a country on the sheet or in the list. An invention that belongs to several countries is counted for each of them, exactly as the bot counts.</p>
+          <p class="section-head__bot"><a class="btn btn--ghost btn--small" href="__BOT_URL__?start=map" target="_blank" rel="noopener">Open the map in the bot</a></p>
+        </div>
+        <div class="atlas__grid" id="map"></div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────── This Day -->
+    <section class="today" id="this-day" aria-labelledby="today-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">This Day in History</p>
+          <h2 id="today-title">On this day, somebody had an idea</h2>
+          <p class="lead">The calendar holds __N_EVENTS__ dated inventions, discoveries and milestones. It reads the date from your device. When today is empty, it does what the bot does and shows the nearest dates on either side.</p>
+          <p class="section-head__bot"><a class="btn btn--ghost btn--small" href="__BOT_URL__?start=today" target="_blank" rel="noopener">This Day in the bot</a></p>
+        </div>
+        <div class="today__grid" id="today"></div>
+        <details class="rule">
+          <summary>The rule behind “nearest dates”, as written in the bot</summary>
+          <div id="nearest-rule"></div>
+        </details>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────── Quiz -->
+    <section class="quiz" id="quiz-room" aria-labelledby="quiz-title">
+      <div class="wrap quiz__grid">
+        <div class="section-head">
+          <p class="eyebrow">Invention quiz</p>
+          <h2 id="quiz-title">Five questions before you go</h2>
+          <p class="lead">Drawn at random from the bot’s real bank of __N_QUESTIONS__ questions, with the answers shuffled. Pens down when you reach the end.</p>
+          <p class="section-head__bot"><a class="btn btn--ghost btn--small" href="__BOT_URL__?start=quiz" target="_blank" rel="noopener">Start a 10-question round in the bot</a></p>
+        </div>
+        <div id="quiz"></div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────── Features -->
+    <section class="guide" id="visitor-guide" aria-labelledby="guide-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Visitor’s guide</p>
+          <h2 id="guide-title">What the bot does, screen by screen</h2>
+          <p class="lead">Everything a visitor can do inside one chat. Choose an entry and the case beside it shows the screen the bot really sends.</p>
+        </div>
+        <figure class="compare">
+          <figcaption>Why the chat stays tidy</figcaption>
+          <div class="compare__col">
+            <p class="compare__who">A bot that sends a new message for every screen</p>
+            <ol><li>Main menu</li><li>Museum menu</li><li>Halls</li><li>Hall list</li><li>Exhibit</li></ol>
+            <p class="compare__sum">Five messages to scroll back through.</p>
+          </div>
+          <div class="compare__col compare__col--ours">
+            <p class="compare__who">__MUSEUM__</p>
+            <ol><li>Exhibit <span>replaced in place 4 times</span></li></ol>
+            <p class="compare__sum">One message. It is always the screen you are on.</p>
+          </div>
+        </figure>
+        <div class="guide__grid" id="guide"></div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────── Under the hood -->
+    <section class="hood" id="workshop" aria-labelledby="hood-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Workshop, staff only</p>
+          <h2 id="hood-title">Behind the wall panel</h2>
+          <p class="lead">Plain Python modules, JSON content and one SQLite file. The code below is copied from the repository by a build script, line numbers included.</p>
+        </div>
+        <h3 class="hood__h">Architecture</h3>
+        <div class="hood__arch" id="arch"></div>
+        <h3 class="hood__h">Database, as created in database.py</h3>
+        <div class="hood__schema" id="schema"></div>
+        <h3 class="hood__h">Decisions worth a label</h3>
+        <div class="hood__decisions" id="decisions"></div>
+        <h3 class="hood__h">Stack</h3>
+        <ul class="stack">
+          <li><b>Python 3.11+</b><span>language</span></li>
+          <li><b>aiogram 3</b><span>Telegram framework, long polling</span></li>
+          <li><b>FSM, MemoryStorage</b><span>search, feedback, quiz rounds</span></li>
+          <li><b>SQLite</b><span>favorites and statistics</span></li>
+          <li><b>JSON</b><span>content, validated at start-up</span></li>
+          <li><b>aiohttp</b><span>image download fallback</span></li>
+          <li><b>python-dotenv</b><span>token and admin id</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────── Team -->
+    <section class="team" id="team" aria-labelledby="team-title">
+      <div class="wrap">
+        <div class="plaque">
+          <span class="plaque__screw" aria-hidden="true"></span><span class="plaque__screw" aria-hidden="true"></span>
+          <span class="plaque__screw" aria-hidden="true"></span><span class="plaque__screw" aria-hidden="true"></span>
+          <h2 id="team-title">This exhibition was curated by</h2>
+          <div id="team-plaque"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────── Exit through the bot -->
+    <section class="visit" id="visit" aria-labelledby="visit-title">
+      <div class="wrap">
+        <h2 id="visit-title">The museum is open. Day and night.</h2>
+        <p class="lead">Everything on this page is a window display. The halls, the favorites, your statistics and the full quiz are inside the bot.</p>
+        <a class="btn btn--primary btn--large" href="__BOT_URL__" target="_blank" rel="noopener"><span>Visit the museum</span><svg class="icon-arrow" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__credits" id="footer-credits"></div>
+      <p class="footer__meta" id="footer-meta"></p>
+    </div>
+  </footer>
+
+  <noscript><p class="noscript">The exhibits on this page are drawn from the bot’s data with JavaScript. Please enable it, or open the bot in Telegram.</p></noscript>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

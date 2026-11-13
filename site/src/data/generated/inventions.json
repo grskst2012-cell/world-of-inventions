@@ -1,0 +1,1087 @@
+[
+  {
+    "id": "reflecting-telescope",
+    "name": "Reflecting Telescope",
+    "hall": "1",
+    "period": "17th century",
+    "year": "1668",
+    "inventor": "Isaac Newton",
+    "country": "England",
+    "origin": "Isaac Newton built an early practical reflecting telescope to reduce the colour distortion found in lenses.",
+    "features": "It used a curved mirror to collect light and a smaller mirror to direct the image to an eyepiece.",
+    "significance": "Reflecting telescopes became central to astronomy and remain widely used in modern observatories.",
+    "further_facts": "Newton’s design is often called the Newtonian telescope.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Newton_telescope_replica_1668.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Royal Society — Isaac Newton",
+        "url": "https://royalsociety.org/people/isaac-newton-11714/"
+      }
+    ],
+    "how_it_works": "A curved mirror at the bottom of the tube gathers light from a distant object and reflects it towards a small second mirror. That mirror directs the light to an eyepiece, where a lens magnifies the image. Using a mirror instead of a big lens avoids the coloured blur that early lens telescopes suffered from.",
+    "map_countries": [
+      "England"
+    ]
+  },
+  {
+    "id": "lightning-rod",
+    "name": "Lightning Rod",
+    "hall": "1",
+    "period": "18th century",
+    "year": "1750s",
+    "inventor": "Benjamin Franklin",
+    "country": "British America",
+    "origin": "Benjamin Franklin’s experiments helped establish that lightning is electrical and led to practical lightning rods.",
+    "features": "A pointed metal rod connected to the ground provides a safer path for electrical charge during a strike.",
+    "significance": "Lightning rods helped protect buildings, ships and people from lightning damage.",
+    "further_facts": "Franklin did not “capture” lightning in the famous kite experiment; the rod was a practical application of his research.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Franklin%27s_Experiment%2C_June_1752_Demonstrating_the_identity_of_Lightning_and_Electricity%2C_from_which_he_invented_the_Lightning_Rod_MET_DP-21537-001.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica — Benjamin Franklin",
+        "url": "https://www.britannica.com/biography/Benjamin-Franklin"
+      }
+    ],
+    "how_it_works": "A tall metal rod is fixed to the top of a building and joined to the ground by a thick metal cable. When lightning strikes, the electric current prefers this easy metal path to the building itself. The charge flows safely into the earth.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "watt-steam-engine",
+    "name": "Improved Steam Engine",
+    "hall": "1",
+    "period": "18th century",
+    "year": "1760s–1770s",
+    "inventor": "James Watt",
+    "country": "Scotland",
+    "origin": "James Watt improved existing steam engines by developing a separate condenser that reduced wasted heat.",
+    "features": "The main cylinder could stay hot while steam condensed in a separate chamber, improving efficiency.",
+    "significance": "Watt’s improvements helped steam power become practical for factories, mines and transport.",
+    "further_facts": "The steam engine was developed by several inventors over time; Watt improved earlier designs rather than inventing it alone.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/WattsSteamEngine.jpeg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica — James Watt",
+        "url": "https://www.britannica.com/biography/James-Watt"
+      }
+    ],
+    "how_it_works": "Steam pushes a piston back and forth inside a cylinder, and the moving piston turns a wheel or drives a pump. Watt added a separate chamber, the condenser, where the steam is cooled. The cylinder can then stay hot all the time, so far less fuel is wasted.",
+    "map_countries": [
+      "Scotland"
+    ]
+  },
+  {
+    "id": "automatic-flour-mill",
+    "name": "Automatic Flour Mill",
+    "hall": "1",
+    "period": "18th century",
+    "year": "1780s",
+    "inventor": "Oliver Evans",
+    "country": "United States",
+    "origin": "Oliver Evans designed a flour mill that used elevators, conveyors and other mechanisms to move grain through successive stages with less manual handling.",
+    "features": "Machines transported, cleaned, ground and sifted grain in a largely continuous process.",
+    "significance": "The design helped inspire automated production systems and modern material handling.",
+    "further_facts": "Evans received a US patent for his automated milling system in 1790.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_young_mill-wright_and_miller%27s_guide_-_in_five_parts_%281821%29_%2814776120631%29.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica — Oliver Evans",
+        "url": "https://www.britannica.com/biography/Oliver-Evans"
+      }
+    ],
+    "how_it_works": "A chain of small buckets (an elevator) lifts the grain, and screw conveyors carry it along and drop it between the millstones. The flour is then moved on for sifting. Water power drives all the moving parts, so almost nobody has to carry sacks by hand.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "electromagnetic-induction",
+    "name": "Electromagnetic Induction",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1831",
+    "inventor": "Michael Faraday",
+    "country": "England",
+    "origin": "Faraday discovered that a changing magnetic field can induce an electric current in a conductor.",
+    "features": "Moving a magnet near a coil, or changing the magnetic field, can generate electricity.",
+    "significance": "The principle underpins electric generators and transformers.",
+    "further_facts": "Induction is a scientific discovery rather than a single manufactured object.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Faraday_disk_generator.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "The Royal Institution — Michael Faraday",
+        "url": "https://www.rigb.org/explore-science/explore/person/michael-faraday"
+      }
+    ],
+    "how_it_works": "When a magnet moves near a coil of wire, or the magnetic field around the coil changes, an electric current appears in the wire. The current flows only while the field is changing. Generators and transformers still work on this principle.",
+    "map_countries": [
+      "England"
+    ]
+  },
+  {
+    "id": "electric-motor",
+    "name": "Electric Motor",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1820s–1830s",
+    "inventor": "Michael Faraday and other pioneers",
+    "country": "England",
+    "origin": "Michael Faraday and other pioneers demonstrated early electric motors; Faraday’s electromagnetic rotation experiment was an important step.",
+    "features": "Electric current and magnetic fields create a force that produces motion.",
+    "significance": "Electric motors later powered industrial machinery, appliances and transport.",
+    "further_facts": "Many inventors developed practical motors after Faraday’s early experiment.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Faraday_magnetic_rotation.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "The Royal Institution — Michael Faraday",
+        "url": "https://www.rigb.org/explore-science/explore/person/michael-faraday"
+      }
+    ],
+    "how_it_works": "Electric current in a wire creates a magnetic field. Inside a motor, this field pushes and pulls against magnets and makes a part called the rotor spin. The spinning motion can then drive machines.",
+    "map_countries": [
+      "England"
+    ]
+  },
+  {
+    "id": "electric-telegraph",
+    "name": "Electric Telegraph",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1830s–1840s",
+    "inventor": "Charles Wheatstone, William Fothergill Cooke and Samuel Morse, among others",
+    "country": "Britain and the United States",
+    "origin": "Several inventors developed electric telegraph systems, including Charles Wheatstone and William Fothergill Cooke in Britain and Samuel Morse in the United States.",
+    "features": "Electrical signals travel along wires and are decoded into letters or symbols.",
+    "significance": "The telegraph made long-distance communication much faster than physical mail.",
+    "further_facts": "Francis Ronalds demonstrated an early experimental telegraph in 1816, and Samuel Morse and Alfred Vail developed a particularly influential system and code.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cooke_and_Wheatstone_electric_telegraph.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Library of Congress — Inventions and Innovations",
+        "url": "https://www.loc.gov/classroom-materials/inventions-and-innovations/"
+      }
+    ],
+    "how_it_works": "A key opens and closes an electric circuit and sends short pulses of current along a long wire. At the far end the pulses move an electromagnet, a needle or a marking device, so the receiver can read the message. A code turns letters into patterns of pulses.",
+    "map_countries": [
+      "England",
+      "United States"
+    ]
+  },
+  {
+    "id": "morse-code",
+    "name": "Morse Code",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1830s–1840s",
+    "inventor": "Samuel Morse, Alfred Vail and collaborators",
+    "country": "United States",
+    "origin": "Morse and Vail developed a system of dots and dashes used to represent letters and numbers for telegraph messages.",
+    "features": "Short and long signals can be sent over electrical wires or by light and sound.",
+    "significance": "Morse code made telegraph messages compact and helped communication across long distances.",
+    "further_facts": "The code was developed collaboratively; it was not created by Samuel Morse alone.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morse_Telegraph_1837_cropped.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Library of Congress — The Telegraph",
+        "url": "https://www.loc.gov/classroom-materials/inventions-and-innovations/"
+      }
+    ],
+    "how_it_works": "Every letter and number is a pattern of short signals (dots) and long signals (dashes). An operator taps the patterns with a key, and they can be sent as electric pulses, flashes of light or beeps. Common letters get short patterns, for example E is a single dot, so messages are quicker to send.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "dental-floss",
+    "name": "Dental Floss",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1815",
+    "inventor": "Levi Spear Parmly",
+    "country": "United States",
+    "origin": "Dentist Levi Spear Parmly recommended using silk thread to clean between teeth.",
+    "features": "A thin thread removes food particles and plaque from spaces a toothbrush may miss.",
+    "significance": "Dental floss became a common part of preventive oral hygiene.",
+    "further_facts": "Commercial floss products developed later; Parmly is associated with an early recommendation, not every modern floss product.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dental_floss.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica — Dental floss",
+        "url": "https://www.britannica.com/science/dental-floss"
+      }
+    ],
+    "how_it_works": "A thin, strong thread is slid between the teeth and pulled along each tooth surface in a C shape. It scrapes off soft plaque and bits of food from gaps that a toothbrush cannot reach.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "sewing-machine",
+    "name": "Sewing Machine",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1830s–1850s",
+    "inventor": "Several inventors, including Walter Hunt and Isaac Singer",
+    "country": "United States and France",
+    "origin": "Many inventors contributed to the sewing machine, including Walter Hunt and Isaac Singer in the United States and Barthélemy Thimonnier in France.",
+    "features": "A needle and thread form stitches mechanically, reducing the need for hand sewing.",
+    "significance": "Sewing machines transformed clothing production and textile manufacturing.",
+    "further_facts": "Hunt did not commercialise his design; later inventors such as Elias Howe and Isaac Singer also played major roles.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antique_Singer_sewing_machine_%2831063440508%29.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Smithsonian National Museum of American History",
+        "url": "https://americanhistory.si.edu/collections"
+      }
+    ],
+    "how_it_works": "A needle with its eye near the point pushes the upper thread through the cloth. Underneath, a hook or shuttle catches that thread and links it with a second thread from a bobbin, forming a lockstitch. A feed mechanism moves the fabric forward after every stitch.",
+    "map_countries": [
+      "United States",
+      "France"
+    ]
+  },
+  {
+    "id": "ice-cream-maker",
+    "name": "Ice Cream Maker",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1843",
+    "inventor": "Nancy Johnson",
+    "country": "United States",
+    "origin": "Nancy Johnson patented a hand-cranked ice cream freezer that made the mixture easier to freeze evenly.",
+    "features": "A rotating dasher stirs the mixture while ice and salt cool the outer container.",
+    "significance": "The design helped make homemade ice cream more accessible.",
+    "further_facts": "Johnson’s patent described a hand-cranked freezer, not the invention of ice cream itself.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Ice_Cream_Freezer_Blue_Bell_Brenham_Texas_2023.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "National Inventors Hall of Fame — Nancy Johnson",
+        "url": "https://www.invent.org/inductees/nancy-johnson"
+      }
+    ],
+    "how_it_works": "A metal can of cream mixture sits inside a tub of ice and salt. The salt makes the ice colder than normal, so it draws heat out of the mixture. A paddle turned by a hand crank keeps stirring, which stops large ice crystals forming and mixes in air for a smooth texture.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "kerosene",
+    "name": "Kerosene",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1840s–1850s",
+    "inventor": "Abraham Gesner",
+    "country": "British North America",
+    "origin": "Geologist Abraham Gesner, working in British North America (present-day Canada), developed a process for producing a useful illuminating fuel from coal and other materials.",
+    "features": "Kerosene burns in lamps and later became important as a fuel.",
+    "significance": "It provided a widely used lighting fuel before electric lighting became common.",
+    "further_facts": "Kerosene production and refining evolved over time; Gesner is associated with an important early process.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerosene_lamp_before_1917_Minsk_Regional_Homeland_Museum_Photo_by_Tatiana_Markina.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "The Canadian Encyclopedia — Abraham Gesner",
+        "url": "https://www.thecanadianencyclopedia.ca/en/article/abraham-gesner"
+      }
+    ],
+    "how_it_works": "Kerosene is made by heating crude oil (or coal) and collecting the part that boils off within a certain temperature range, a process called distillation. It burns steadily with a bright flame, which made it ideal for lamps.",
+    "map_countries": [
+      "Canada"
+    ]
+  },
+  {
+    "id": "gas-mask",
+    "name": "Gas Mask",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1840s",
+    "inventor": "Lewis Haslett",
+    "country": "United States",
+    "origin": "Lewis Haslett patented an early “lung protector” intended to filter harmful dust and particles from inhaled air.",
+    "features": "A face covering and filter help reduce exposure to airborne hazards.",
+    "significance": "Early breathing-protection devices contributed to the later development of respirators and gas masks.",
+    "further_facts": "Haslett’s device was not the same as a modern military gas mask.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gas_mask_%28AM_1946.189%29.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "National Inventors Hall of Fame — Lewis Haslett",
+        "url": "https://www.invent.org/inductees/lewis-p-haslett"
+      }
+    ],
+    "how_it_works": "Air is pulled through a filter containing materials such as charcoal that trap or absorb harmful gases and particles. The mask fits tightly around the face, so only filtered air can be breathed in.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "telephone",
+    "name": "Telephone",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1870s",
+    "inventor": "Alexander Graham Bell and other pioneers",
+    "country": "United States and Canada",
+    "origin": "Several inventors worked on transmitting speech electrically. Alexander Graham Bell received a key US patent in 1876.",
+    "features": "A microphone-like transmitter converts sound into electrical signals, which are converted back into sound at the receiver.",
+    "significance": "The telephone transformed personal communication, business and the speed of information exchange.",
+    "further_facts": "The history of the telephone includes several inventors, competing claims and patent disputes; Bell was born in Scotland and worked in Canada and the United States.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Graham_Bell_Experimental_Telephone.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Smithsonian National Museum of American History — Bell telephone",
+        "url": "https://americanhistory.si.edu/collections/object/nmah_689864"
+      }
+    ],
+    "how_it_works": "A microphone changes the sound of a voice into a varying electric current. The current travels along wires to the other phone, where a receiver uses it to move a thin membrane and recreate the sound.",
+    "map_countries": [
+      "United States",
+      "Canada"
+    ]
+  },
+  {
+    "id": "jeans",
+    "name": "Blue Jeans",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1873",
+    "inventor": "Jacob Davis and Levi Strauss",
+    "country": "United States",
+    "origin": "Levi Strauss and tailor Jacob Davis patented reinforced work trousers using metal rivets at stress points.",
+    "features": "Durable denim fabric and rivets made the trousers suitable for hard physical work.",
+    "significance": "Jeans evolved from workwear into a global everyday clothing staple.",
+    "further_facts": "The patent was granted to Davis and Strauss together.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Levi%27s_501.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "National Museum of American History — Clothing collections",
+        "url": "https://americanhistory.si.edu/collections"
+      }
+    ],
+    "how_it_works": "Strong cotton denim is woven in a twill pattern, which makes it very tough. Metal rivets are added at points that tear easily, such as the corners of pockets, so the seams hold up under strain.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "qwerty-keyboard",
+    "name": "QWERTY Keyboard Layout",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1870s",
+    "inventor": "Christopher Latham Sholes and collaborators",
+    "country": "United States",
+    "origin": "Christopher Latham Sholes and collaborators developed a commercially successful typewriter layout that became known as QWERTY.",
+    "features": "The letters are arranged in a standard pattern used on many keyboards.",
+    "significance": "QWERTY became a durable standard for typewriters and later computer keyboards.",
+    "further_facts": "The layout’s history is more complex than the popular claim that it was invented simply to slow typists down.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/QWERTY_keyboard.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Computer History Museum — Typewriter history",
+        "url": "https://www.computerhistory.org/"
+      }
+    ],
+    "how_it_works": "Each key is linked to a lever (a typebar) that swings up and presses an inked ribbon against the paper. A popular explanation is that the QWERTY layout kept commonly paired letters on separate typebars so that they jammed less often.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "gramophone-record",
+    "name": "Gramophone Record",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1887",
+    "inventor": "Emile Berliner",
+    "country": "United States",
+    "origin": "Emile Berliner, a German-born inventor working in the United States, developed a gramophone system that recorded and reproduced sound on flat discs.",
+    "features": "A stylus follows grooves in a rotating disc to reproduce recorded sound.",
+    "significance": "Flat records helped make recorded music easier to manufacture and distribute.",
+    "further_facts": "Berliner’s disc system differed from earlier cylinder phonographs.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emile_Berliner_with_disc_record_gramophone_-_between_1910_and_1929.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "National Museum of American History — Sound recording",
+        "url": "https://americanhistory.si.edu/collections"
+      }
+    ],
+    "how_it_works": "A needle (stylus) rests in a spiral groove on a flat disc. The groove wiggles in the shape of the recorded sound, so the needle vibrates as the disc spins. A horn or speaker turns those vibrations back into sound.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "skyscraper",
+    "name": "Steel-Frame Skyscraper",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1880s",
+    "inventor": "William Le Baron Jenney and other engineers",
+    "country": "United States",
+    "origin": "Architect and engineer William Le Baron Jenney used a metal structural frame in the Home Insurance Building in Chicago.",
+    "features": "A load-bearing frame allows buildings to rise higher without relying on thick masonry walls.",
+    "significance": "Steel-frame construction helped make modern high-rise city skylines possible.",
+    "further_facts": "The “first skyscraper” label is debated because high-rise design developed through several innovations.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Home_Insurance_Building.JPG?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica — Skyscraper",
+        "url": "https://www.britannica.com/technology/skyscraper"
+      }
+    ],
+    "how_it_works": "A frame of steel beams carries the weight of the whole building, so the outer walls no longer have to hold it up. This lets buildings rise much higher, with thinner walls and large windows. Safety elevators carry people to the upper floors.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "dishwasher",
+    "name": "Dishwasher",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1886",
+    "inventor": "Josephine Cochrane",
+    "country": "United States",
+    "origin": "Josephine Cochrane designed a machine that used water pressure to clean dishes while protecting them from damage.",
+    "features": "Dishes sit in racks while jets of water wash their surfaces.",
+    "significance": "Her design helped establish the modern mechanical dishwasher.",
+    "further_facts": "Cochrane developed the machine partly because she wanted a safer way to wash valuable dishes.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dishwasher_demonstration_1921.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "National Inventors Hall of Fame — Josephine Cochrane",
+        "url": "https://www.invent.org/inductees/josephine-cochrane"
+      }
+    ],
+    "how_it_works": "Hot water mixed with detergent is sprayed onto dishes held in racks, while a pump keeps the water moving. Clean water then rinses the soap away, and heat or moving air dries the dishes.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "electric-drill",
+    "name": "Electric Drill",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1889",
+    "inventor": "Arthur James Arnot and William Blanch Brain",
+    "country": "Australia",
+    "origin": "Australian engineers Arthur James Arnot and William Blanch Brain patented an early electric drill designed for industrial work.",
+    "features": "An electric motor rotates a drill bit to bore holes into materials.",
+    "significance": "Powered drills made construction and industrial work faster and less physically demanding.",
+    "further_facts": "Later designs made electric drills smaller and more practical for everyday use.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Electric_drill.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Powerhouse Museum — Collections",
+        "url": "https://collection.powerhouse.com.au/"
+      }
+    ],
+    "how_it_works": "An electric motor spins a chuck that holds the drill bit. The sharp spiral edges of the turning bit cut into the material, and the grooves carry the shavings out of the hole.",
+    "map_countries": [
+      "Australia"
+    ]
+  },
+  {
+    "id": "basketball",
+    "name": "Basketball",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1891",
+    "inventor": "James Naismith",
+    "country": "Canada / United States",
+    "origin": "Canadian physical education instructor James Naismith created basketball while working in Springfield, Massachusetts.",
+    "features": "Two teams score by throwing a ball through the opposing team’s elevated hoop.",
+    "significance": "Basketball became a major international sport played in schools, clubs and professional leagues.",
+    "further_facts": "The first games used a soccer ball and peach baskets.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr._James_Naismith.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Naismith Memorial Basketball Hall of Fame",
+        "url": "https://www.hoophall.com/"
+      }
+    ],
+    "how_it_works": "Two teams try to throw a ball through the opponent's raised hoop. The ball moves by passing and dribbling, and players may not run while holding it. In the first games the goals were peach baskets nailed to a balcony.",
+    "map_countries": [
+      "Canada",
+      "United States"
+    ]
+  },
+  {
+    "id": "pneumatic-tyre",
+    "name": "Pneumatic Tyre",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1880s",
+    "inventor": "John Boyd Dunlop and earlier contributors",
+    "country": "Scotland / Ireland",
+    "origin": "Scottish veterinarian John Boyd Dunlop, working in Belfast, developed an air-filled rubber tyre for bicycles to give a smoother and more comfortable ride.",
+    "features": "A rubber tube filled with compressed air is fitted inside a tyre, absorbing bumps from the road surface.",
+    "significance": "The pneumatic tyre improved comfort, grip and speed, and later became essential for cars, lorries and aircraft.",
+    "further_facts": "Robert William Thomson had patented an air-filled tyre in 1845, but Dunlop's design made it practical for everyday use.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunlop_first_pneumatic_bicycle_tyre.JPG?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica — John Boyd Dunlop",
+        "url": "https://www.britannica.com/biography/John-Boyd-Dunlop"
+      }
+    ],
+    "how_it_works": "A sealed rubber tube filled with compressed air sits inside the tyre. When the wheel hits a bump, the air squeezes like a cushion and then springs back. This absorbs shocks and gives a smoother ride and better grip than solid rubber.",
+    "map_countries": [
+      "Scotland",
+      "Ireland"
+    ]
+  },
+  {
+    "id": "automatic-flour-mill-improvements",
+    "name": "Automatic Flour Mill Improvements",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1780s–1790s",
+    "inventor": "Oliver Evans",
+    "country": "United States",
+    "origin": "Oliver Evans continued to refine his automated milling machinery and spread it through mills across the United States, turning it into an early industrial production system.",
+    "features": "Bucket elevators, conveyors and hoppers automated several stages of milling, from moving grain to sifting flour.",
+    "significance": "The system is regarded as an early example of continuous automated production and influenced later factory design.",
+    "further_facts": "Evans described his methods in the 1795 book The Young Mill-wright and Miller's Guide, which was widely read by millers.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_young_mill-wright_and_miller%27s_guide_-_in_five_parts_%281821%29_%2814592570349%29.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Encyclopaedia Britannica — Oliver Evans",
+        "url": "https://www.britannica.com/biography/Oliver-Evans"
+      }
+    ],
+    "how_it_works": "The improved mill joined its machines into one continuous chain. Elevators lifted grain and flour, conveyors carried them sideways, and a device called a hopper-boy cooled and spread the meal. Gravity and water power did the moving, so the grain became flour almost without hand work.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "refrigerator",
+    "name": "Practical Mechanical Refrigeration",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1850s",
+    "inventor": "James Harrison",
+    "country": "Australia",
+    "origin": "James Harrison developed practical mechanical refrigeration systems in Australia, including equipment used in breweries and meat processing.",
+    "features": "A refrigeration cycle removes heat from an enclosed space and transfers it elsewhere.",
+    "significance": "Mechanical refrigeration transformed food storage, shipping and industry.",
+    "further_facts": "Modern refrigerators developed through the work of many engineers; Harrison is an important early commercial pioneer.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diagram_of_a_Linde_ice_machine_-_DPLA_-_482f786998b9b31d58bacd70a257ce96_%28page_2%29.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Australian Dictionary of Biography — James Harrison",
+        "url": "https://adb.anu.edu.au/"
+      }
+    ],
+    "how_it_works": "A liquid that boils at a low temperature (the refrigerant) evaporates inside the cold compartment and takes heat from it. A compressor then squeezes the vapour, which gets hot and gives off its heat outside as it turns back into a liquid. The cycle repeats and keeps the inside cool.",
+    "map_countries": [
+      "Australia"
+    ]
+  },
+  {
+    "id": "underwater-torpedo",
+    "name": "Wire-Guided Underwater Torpedo",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1870s–1880s",
+    "inventor": "Louis Brennan, with engineering collaborators",
+    "country": "Australia / Britain",
+    "origin": "Louis Brennan, with engineering collaborators, developed a torpedo guided by wires connected to shore-based equipment.",
+    "features": "Operators could control the torpedo’s direction while it travelled underwater.",
+    "significance": "The design was an important early example of remotely guided weapons technology.",
+    "further_facts": "This is a historical weapons technology exhibit, described here for educational history only.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brennan_Torpedo_replica.3.JPG?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Australian Dictionary of Biography — Louis Brennan",
+        "url": "https://adb.anu.edu.au/"
+      }
+    ],
+    "how_it_works": "Wires on drums inside the torpedo were pulled from the shore by powerful engines, and the pull spun the drums and drove the propellers. By changing how fast each wire was pulled, the operator could steer the torpedo towards its target.",
+    "map_countries": [
+      "Australia",
+      "England"
+    ]
+  },
+  {
+    "id": "electric-iron",
+    "name": "Electric Iron",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1882",
+    "inventor": "Henry W. Seely",
+    "country": "United States",
+    "origin": "Henry W. Seely patented an electric flatiron that used electrical resistance to generate heat.",
+    "features": "An electrically heated metal plate smooths wrinkles in fabric.",
+    "significance": "Electric irons made ironing more convenient as household electricity spread.",
+    "further_facts": "Early electric irons were heavy and required careful handling.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antique_electric_iron_%2843190508310%29.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Smithsonian National Museum of American History",
+        "url": "https://americanhistory.si.edu/collections"
+      }
+    ],
+    "how_it_works": "Electric current flows through a heating element in the base. The element resists the current, which turns electrical energy into heat and warms the metal soleplate. The hot, flat plate presses wrinkles out of cloth as it is pushed across.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "solar-cell",
+    "name": "Early Solar Cell",
+    "hall": "2",
+    "period": "19th century",
+    "year": "1883",
+    "inventor": "Charles Fritts",
+    "country": "United States",
+    "origin": "Charles Fritts built an early solar cell using selenium coated with a thin layer of gold.",
+    "features": "Light striking a semiconductor material can produce an electrical current.",
+    "significance": "Fritts’s device was a precursor to modern photovoltaic solar panels.",
+    "further_facts": "Its efficiency was very low compared with modern silicon solar cells.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Close-up_of_a_polycrystalline_solar_PV_panel.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Smithsonian Magazine — Solar cell history",
+        "url": "https://www.smithsonianmag.com/"
+      }
+    ],
+    "how_it_works": "When sunlight hits a special material, such as selenium in early cells or silicon in modern ones, it knocks electrons loose and creates an electric current. Connected to a circuit, this current can power a device.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "air-conditioning",
+    "name": "Modern Air Conditioning",
+    "hall": "3",
+    "period": "20th century",
+    "year": "1902",
+    "inventor": "Willis Carrier",
+    "country": "United States",
+    "origin": "Willis Carrier designed a system to control humidity and temperature in a printing plant.",
+    "features": "The system cools air and regulates moisture to keep industrial processes stable.",
+    "significance": "Air conditioning changed manufacturing, indoor comfort and the growth of cities in hot climates.",
+    "further_facts": "Carrier’s first system was designed to control humidity for printing, not primarily for home comfort.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Magna_Mine_A-C_System_made_large-scale_air_conditioning_feasible.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Wikimedia Commons — Carrier air-conditioning installation",
+        "url": "https://commons.wikimedia.org/wiki/File:Magna_Mine_A-C_System_made_large-scale_air_conditioning_feasible.jpg"
+      }
+    ],
+    "how_it_works": "Fans blow warm room air over cold coils, which cool the air and remove moisture from it. The coils are chilled by a refrigeration cycle, the same idea that keeps a refrigerator cold.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "airplane",
+    "name": "Powered Airplane",
+    "hall": "3",
+    "period": "20th century",
+    "year": "1903",
+    "inventor": "Orville and Wilbur Wright",
+    "country": "United States",
+    "origin": "The Wright brothers achieved a powered, controlled and sustained airplane flight at Kitty Hawk, North Carolina.",
+    "features": "Wings generate lift, while an engine and propeller provide thrust; controls let the pilot steer.",
+    "significance": "Powered flight reshaped transport, commerce, warfare and global connections.",
+    "further_facts": "Earlier aviation pioneers also contributed; the Wrights are credited with a key controlled powered flight milestone.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wright_First_Flight_1903Dec17_%28full_restore_115%29.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Wikimedia Commons — Wright brothers first flight",
+        "url": "https://commons.wikimedia.org/wiki/File:Wright_First_Flight_1903Dec17_(full_restore_115).jpg"
+      }
+    ],
+    "how_it_works": "Wings are shaped and tilted so that the air flowing past pushes them upwards, a force called lift. An engine-driven propeller pulls the plane forward. The pilot steers by changing the shape or angle of the wings and tail surfaces.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "insulin-treatment",
+    "name": "Insulin Treatment",
+    "hall": "3",
+    "period": "20th century",
+    "year": "1921–1922",
+    "inventor": "Frederick Banting, Charles Best, J. J. R. Macleod and James Collip",
+    "country": "Canada",
+    "origin": "Researchers at the University of Toronto isolated and refined insulin for medical use.",
+    "features": "Insulin helps regulate blood glucose by enabling cells to take up glucose.",
+    "significance": "Insulin transformed type 1 diabetes from a usually fatal illness into a manageable chronic condition.",
+    "further_facts": "The breakthrough was a team effort; several researchers made essential contributions.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Banting_and_Best.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Wikimedia Commons — Banting and Best",
+        "url": "https://commons.wikimedia.org/wiki/File:Banting_and_Best.jpg"
+      }
+    ],
+    "how_it_works": "Insulin is a hormone that helps the body's cells take sugar (glucose) from the blood. People whose bodies cannot make enough of it receive insulin by injection, which brings their blood sugar back to a safer level.",
+    "map_countries": [
+      "Canada"
+    ]
+  },
+  {
+    "id": "penicillin",
+    "name": "Penicillin",
+    "hall": "3",
+    "period": "20th century",
+    "year": "1928",
+    "inventor": "Alexander Fleming; later development by other researchers",
+    "country": "Scotland / England",
+    "origin": "Alexander Fleming noticed that a mould inhibited bacterial growth in a laboratory culture.",
+    "features": "Penicillin antibiotics interfere with bacterial cell-wall formation.",
+    "significance": "Penicillin helped usher in the antibiotic era and has saved many lives.",
+    "further_facts": "Fleming discovered the effect; later scientists including Howard Florey and Ernst Chain developed it into a usable medicine.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sample_of_penicillin_mould_presented_by_Alexander_Fleming_to_Douglas_Macleod%2C_1935_%289672239344%29.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Nobel Prize — Alexander Fleming",
+        "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/"
+      }
+    ],
+    "how_it_works": "Penicillin is produced by a mould. It stops bacteria from building their cell walls, so growing bacteria burst and die, while human cells, which have no such walls, are not harmed.",
+    "map_countries": [
+      "Scotland",
+      "England"
+    ]
+  },
+  {
+    "id": "quartz-clock",
+    "name": "Quartz Clock",
+    "hall": "3",
+    "period": "20th century",
+    "year": "1927",
+    "inventor": "Warren Marrison and J. W. Horton",
+    "country": "Canada",
+    "origin": "Warren Marrison and J. W. Horton developed a quartz crystal clock using the stable vibrations of quartz.",
+    "features": "A quartz crystal vibrates at a precise frequency when an electric field is applied.",
+    "significance": "Quartz timekeeping improved precision in laboratories and later became common in watches and electronics.",
+    "further_facts": "Quartz clocks became smaller and cheaper as electronic components improved.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Quartz_clock.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "National Institute of Standards and Technology — Timekeeping",
+        "url": "https://www.nist.gov/pml/time-and-frequency-division"
+      }
+    ],
+    "how_it_works": "A thin slice of quartz crystal vibrates at a very steady rate when an electric current is applied to it. Electronics count these vibrations and use them to measure seconds, which makes quartz clocks far more precise than pendulum clocks.",
+    "map_countries": [
+      "Canada"
+    ]
+  },
+  {
+    "id": "walkie-talkie",
+    "name": "Walkie-Talkie",
+    "hall": "3",
+    "period": "20th century",
+    "year": "1930s–1940s",
+    "inventor": "Donald Hings and other radio engineers",
+    "country": "Canada and the United States",
+    "origin": "Donald Hings and other radio engineers in Canada and the United States developed portable two-way radios for field communication.",
+    "features": "A handheld or portable radio sends and receives voice signals over radio waves.",
+    "significance": "Portable two-way radios became important for emergency services, industry and military communication.",
+    "further_facts": "The term “walkie-talkie” became widely used during the Second World War.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/SCR-300_battery-powered_FM_voice_receiver_transmitter%2C_Motorola%2C_1940_-_National_Electronics_Museum_-_DSC00176.JPG?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "The Canadian Encyclopedia — Donald Hings",
+        "url": "https://www.thecanadianencyclopedia.ca/"
+      }
+    ],
+    "how_it_works": "A microphone turns your voice into an electrical signal, and a transmitter sends it out as radio waves. The other radio receives the waves and turns them back into sound. A push-to-talk button switches between speaking and listening.",
+    "map_countries": [
+      "Canada",
+      "United States"
+    ]
+  },
+  {
+    "id": "car-radio",
+    "name": "Car Radio",
+    "hall": "3",
+    "period": "20th century",
+    "year": "1920s–1930s",
+    "inventor": "Several engineers and manufacturers",
+    "country": "United States",
+    "origin": "Several engineers and manufacturers developed car radios; Galvin Manufacturing Corporation introduced a successful commercial model under the Motorola name.",
+    "features": "A radio receiver picks up broadcast signals and plays sound through a speaker.",
+    "significance": "Car radios helped turn the automobile into a connected entertainment space.",
+    "further_facts": "Car radio technology had multiple contributors; the Motorola model helped popularise it commercially.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Radioricevitore_a_valvole%2C_per_auto_-_Museo_scienza_tecnologia_Milano_D1158.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Motorola Solutions — Company history",
+        "url": "https://www.motorolasolutions.com/"
+      }
+    ],
+    "how_it_works": "An antenna picks up radio waves, and a tuner selects one station. The signal is amplified and a loudspeaker turns it into sound. Early car radios also needed special parts to suppress the electrical noise made by the engine.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "microwave-oven",
+    "name": "Microwave Oven",
+    "hall": "3",
+    "period": "20th century",
+    "year": "1940s",
+    "inventor": "Percy Spencer and the Raytheon team",
+    "country": "United States",
+    "origin": "Engineer Percy Spencer noticed that microwave energy from radar equipment heated food and helped develop microwave cooking technology.",
+    "features": "Microwaves cause polar molecules in food to move, generating heat.",
+    "significance": "Microwave ovens changed food preparation in homes and commercial kitchens.",
+    "further_facts": "The first commercial units were much larger than today’s countertop ovens.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amana_Radarange_Microwave_Oven.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "National Inventors Hall of Fame — Percy Spencer",
+        "url": "https://www.invent.org/inductees/percy-spencer"
+      }
+    ],
+    "how_it_works": "A device called a magnetron produces microwaves, which bounce around inside the metal box. The microwaves make the water molecules in food move rapidly, and that movement produces heat.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "notepad",
+    "name": "Pocket Notepad",
+    "hall": "3",
+    "period": "20th century",
+    "year": "1900s",
+    "inventor": "Multiple manufacturers; no single confirmed inventor",
+    "country": "Various",
+    "origin": "Small bound notepads were produced by multiple manufacturers in the early 1900s, and no single inventor is confirmed.",
+    "features": "A compact stack of paper provides a portable surface for writing notes.",
+    "significance": "The notepad became a simple but enduring everyday tool for recording information.",
+    "further_facts": "A Tasmanian stationer, J. A. Birchall, is sometimes credited with an early commercial notepad (1902), but this attribution is uncertain and should be treated cautiously.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Small_blue_notepad_-_8_x_11_cm_-_D.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Libraries Tasmania — Tasmanian inventions",
+        "url": "https://libraries.tas.gov.au/"
+      }
+    ],
+    "how_it_works": "Sheets of paper are glued together along one edge, so that each page can be torn off cleanly after writing. A stiff cardboard backing keeps the pad firm in the hand.",
+    "map_countries": [
+      "International"
+    ]
+  },
+  {
+    "id": "electric-wheelchair",
+    "name": "Electric Wheelchair",
+    "hall": "4",
+    "period": "20th century",
+    "year": "1950s",
+    "inventor": "George Klein and a research team",
+    "country": "Canada",
+    "origin": "Canadian engineer George Klein helped develop an electric wheelchair for people with limited mobility.",
+    "features": "An electric motor and battery power the wheels, reducing the effort needed to move.",
+    "significance": "Powered wheelchairs expanded independent mobility and accessibility.",
+    "further_facts": "The design was developed as part of a broader post-war effort to improve mobility aids.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Klein_Drive_Chair_1953.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Canada Science and Technology Museum",
+        "url": "https://ingeniumcanada.org/"
+      }
+    ],
+    "how_it_works": "Battery-powered electric motors turn the wheels, and the user steers with a joystick or another control. The controller changes how much power goes to each wheel, which makes the chair go forward, stop or turn.",
+    "map_countries": [
+      "Canada"
+    ]
+  },
+  {
+    "id": "computer-music",
+    "name": "Computer-Generated Music",
+    "hall": "4",
+    "period": "20th century",
+    "year": "1950s",
+    "inventor": "Several researchers and composers",
+    "country": "Australia and other countries",
+    "origin": "In the 1950s researchers and composers in several countries, including Australia, began using computers to generate musical sounds.",
+    "features": "A computer calculates sound waveforms and outputs them as audio.",
+    "significance": "Computer music became a foundation for digital audio, synthesis and modern music production.",
+    "further_facts": "Max Mathews’s MUSIC program, developed in the United States in 1957, was an early landmark in digital sound synthesis.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CSIRAC_at_Scienceworks%2C_Melbourne.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Computer History Museum — Max Mathews",
+        "url": "https://www.computerhistory.org/"
+      }
+    ],
+    "how_it_works": "A computer calculates numbers that describe a sound wave, and a converter turns these numbers into an electrical signal that a loudspeaker plays. By changing the numbers, composers can create new sounds or control which notes are played.",
+    "map_countries": [
+      "Australia",
+      "International"
+    ]
+  },
+  {
+    "id": "film-colourisation",
+    "name": "Digital Film Colourisation",
+    "hall": "4",
+    "period": "20th century",
+    "year": "1970s–1980s",
+    "inventor": "Wilson Markle and collaborators",
+    "country": "Canada",
+    "origin": "Wilson Markle helped develop a computer-assisted process for adding colour to black-and-white film.",
+    "features": "Computer systems assign colours to selected areas of each frame.",
+    "significance": "The process became part of film restoration and television production.",
+    "further_facts": "Colourisation is a process developed by a team, and it has also been debated by film historians and audiences.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bette_Davis_in_Jezebel_%28colorized%29.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "The Canadian Encyclopedia — Wilson Markle",
+        "url": "https://www.thecanadianencyclopedia.ca/"
+      }
+    ],
+    "how_it_works": "Digital tools let artists mark areas of a black-and-white film frame and assign colours to them. Software follows the marked areas from frame to frame and blends the chosen colours with the original brightness to create a coloured version.",
+    "map_countries": [
+      "Canada"
+    ]
+  },
+  {
+    "id": "archie-search",
+    "name": "Archie Search Engine",
+    "hall": "4",
+    "period": "20th century",
+    "year": "1990",
+    "inventor": "Alan Emtage",
+    "country": "Canada",
+    "origin": "Alan Emtage created Archie, a tool that indexed public FTP file listings so users could search for files.",
+    "features": "The system collected file listings and made them searchable by name.",
+    "significance": "Archie was an early search tool and a precursor to later internet search services.",
+    "further_facts": "It searched FTP archives, not web pages as modern search engines do.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alan_Emtage_July_2019.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "Internet Hall of Fame — Alan Emtage",
+        "url": "https://www.internethalloffame.org/"
+      }
+    ],
+    "how_it_works": "Archie regularly collected lists of file names from public FTP servers and stored them in one searchable index. A user typed a search term and received a list of servers holding matching files, which could then be downloaded.",
+    "map_countries": [
+      "Canada"
+    ]
+  },
+  {
+    "id": "three-d-printing",
+    "name": "3D Printing",
+    "hall": "4",
+    "period": "20th century",
+    "year": "1980s",
+    "inventor": "Chuck Hull and other pioneers",
+    "country": "United States and other countries",
+    "origin": "Chuck Hull and other pioneers developed additive manufacturing; Hull’s stereolithography builds objects layer by layer using light-sensitive resin.",
+    "features": "A digital design is converted into thin layers that a printer forms into a physical object.",
+    "significance": "3D printing changed prototyping, manufacturing, medical modelling and design.",
+    "further_facts": "Many additive-manufacturing methods exist; Hull’s stereolithography was an important early commercial system.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/3D_printer_head_during_print.jpg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "National Inventors Hall of Fame — Chuck Hull",
+        "url": "https://www.invent.org/inductees/chuck-hull"
+      }
+    ],
+    "how_it_works": "Software slices a 3D model into thin horizontal layers. The printer then builds the object layer by layer, for example by melting plastic thread, hardening liquid resin with light, or fusing powder, until the whole shape appears.",
+    "map_countries": [
+      "United States",
+      "International"
+    ]
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "hall": "4",
+    "period": "21st century",
+    "year": "2005",
+    "inventor": "Steve Chen, Chad Hurley and Jawed Karim",
+    "country": "United States",
+    "origin": "YouTube launched as a website for people to upload, share and watch videos online.",
+    "features": "A video-hosting platform stores clips and streams them to viewers over the internet.",
+    "significance": "It changed online video, entertainment, education and creator culture.",
+    "further_facts": "The first video was uploaded in April 2005; the platform was later acquired by Google.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/YouTube_logo.svg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "YouTube Official Blog — About YouTube",
+        "url": "https://blog.youtube/"
+      }
+    ],
+    "how_it_works": "Uploaded videos are converted into several quality levels and stored on servers around the world. When you press play, the video is sent over the internet in small pieces (streaming), so it starts playing while the rest is still arriving.",
+    "map_countries": [
+      "United States"
+    ]
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "hall": "4",
+    "period": "21st century",
+    "year": "2022",
+    "inventor": "OpenAI research and engineering teams",
+    "country": "United States",
+    "origin": "OpenAI launched ChatGPT as a conversational AI system that can respond to prompts and help with text-based tasks.",
+    "features": "A large language model generates responses based on patterns learned during training and the context of a conversation.",
+    "significance": "ChatGPT brought conversational AI to a broad public audience and accelerated debate about AI in education and work.",
+    "further_facts": "ChatGPT is a product developed by a team, not an invention attributable to one individual.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/ChatGPT_logo.svg?width=900",
+    "image_credit": "Wikimedia Commons",
+    "sources": [
+      {
+        "title": "OpenAI — Introducing ChatGPT",
+        "url": "https://openai.com/index/chatgpt/"
+      }
+    ],
+    "how_it_works": "ChatGPT is a large language model trained on huge amounts of text to predict which words are likely to come next. When you send a message, it builds a reply one small piece of text at a time using the patterns it learned. It can make mistakes, so important facts should be checked.",
+    "map_countries": [
+      "United States"
+    ]
+  }
+]

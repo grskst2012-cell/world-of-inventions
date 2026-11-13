@@ -1,0 +1,68 @@
+/* ════════════════════════════════════════════════════════════════════════
+   Mock Telegram chat: the hero phone and the screens in the visitor's guide.
+   The chat keeps its own colours in both themes, like a real messenger.
+   ════════════════════════════════════════════════════════════════════════ */
+.phone, .case__screen {
+  --tg-bg: #dfe6dc; --tg-bubble: #ffffff; --tg-user: #e3f7cf; --tg-ink: #14181d; --tg-soft: #6c7680; --tg-key: rgba(40, 52, 44, 0.42); --tg-key-ink: #ffffff; --tg-bar: #f6f6f4;
+}
+:root[data-theme="dark"] .phone, :root[data-theme="dark"] .case__screen {
+  --tg-bg: #0f1820; --tg-bubble: #1c2733; --tg-user: #2b5278; --tg-ink: #eef2f5; --tg-soft: #8a98a6; --tg-key: rgba(255, 255, 255, 0.11); --tg-key-ink: #eef2f5; --tg-bar: #17212b;
+}
+
+.phone {
+  position: relative; display: grid; grid-template-rows: auto minmax(0, 1fr) auto;
+  width: min(320px, 100%); height: min(620px, 74svh); min-height: 480px;
+  border: 1px solid var(--ink); border-radius: var(--r-phone); background: var(--tg-bg); color: var(--tg-ink);
+  box-shadow: 0 0 0 7px var(--paper), 0 0 0 8px var(--ink), var(--shadow); overflow: hidden;
+  font: 400 13px/1.4 var(--font-body);
+}
+.phone__top { display: flex; align-items: center; gap: 10px; padding: 12px 16px; background: var(--tg-bar); border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
+.phone__avatar { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: #1a2030; color: #e9d7a6; }
+.phone__who { display: grid; line-height: 1.2; }
+.phone__who b { font-weight: 600; font-size: 14px; }
+.phone__who i { font-style: normal; font-size: 12px; color: var(--tg-soft); }
+.phone__chat { display: flex; flex-direction: column; gap: 8px; padding: 12px 10px; overflow: hidden; transition: opacity 400ms; }
+.phone__chat.is-clearing { opacity: 0; }
+.phone__input { display: flex; align-items: center; gap: 8px; min-height: 46px; padding: 8px 10px 8px 16px; background: var(--tg-bar); border-top: 1px solid rgba(0, 0, 0, 0.08); }
+.phone__typed { flex: 1; min-height: 1.4em; }
+.phone__typed:empty::before { content: "Message"; color: var(--tg-soft); }
+.phone__send { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: #3a8fd6; color: #fff; }
+.phone__toast {
+  position: absolute; left: 50%; top: 68px; z-index: 2; transform: translate(-50%, -12px); opacity: 0;
+  padding: 8px 14px; border-radius: 16px; background: rgba(20, 24, 29, 0.88); color: #fff; font-size: 12px; white-space: nowrap;
+  transition: opacity 240ms, transform 240ms var(--ease);
+}
+.phone__toast.is-on { opacity: 1; transform: translate(-50%, 0); }
+.phone__meta { display: grid; justify-items: center; gap: 10px; width: min(320px, 100%); }
+.phone__toggle { min-height: 44px; padding: 8px 14px; border: 1px solid var(--line-2); border-radius: var(--r-1); background: var(--paper); font: 500 var(--fs-0)/1 var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; }
+.phone__toggle:hover { border-color: var(--ink); }
+.phone__note { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 16px; font: 400 var(--fs-0)/1.4 var(--font-mono); color: var(--ink-2); }
+.phone__note b { color: var(--ink); font-weight: 500; }
+
+/* ───────────────────────────── messages */
+.tg-msg { display: grid; gap: 4px; max-width: 94%; align-self: flex-start; }
+.tg-msg--user { align-self: flex-end; max-width: 70%; }
+.tg-bubble { border-radius: 14px 14px 14px 5px; background: var(--tg-bubble); overflow: hidden; }
+.tg-msg--user .tg-bubble { border-radius: 14px 14px 5px 14px; background: var(--tg-user); }
+.tg-text { padding: 7px 10px 8px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.tg-photo { width: 100%; height: auto; max-height: 190px; object-fit: cover; background: #cfd3cd; }
+.tg-kb { display: grid; gap: 4px; }
+.tg-kb__row { display: flex; gap: 4px; }
+.tg-key {
+  position: relative; flex: 1 1 0; min-width: 0; padding: 8px 6px; border-radius: 7px; background: var(--tg-key); color: var(--tg-key-ink);
+  font-size: 12.5px; font-weight: 500; line-height: 1.25; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.tg-key.is-tap { background: #3a8fd6; color: #fff; }
+.tg-key.is-tap::after { content: ""; position: absolute; left: 50%; top: 50%; width: 30px; height: 30px; margin: -15px; border-radius: 50%; background: rgba(255, 255, 255, 0.5); animation: tap 520ms var(--ease) forwards; }
+.tg-msg.is-new { animation: msg-in 320ms var(--ease); }
+.tg-msg.is-edited .tg-bubble { animation: msg-edit 520ms var(--ease); }
+@keyframes tap { from { transform: scale(0.2); opacity: 1; } to { transform: scale(2.4); opacity: 0; } }
+@keyframes msg-in { from { opacity: 0; transform: translateY(10px); } }
+@keyframes msg-edit { from { opacity: 0.25; } }
+
+/* ───────────────────────────── the guide's display case */
+.case { border: 1px solid var(--line-2); background: var(--card); box-shadow: var(--shadow); }
+.case__label { padding: 12px 16px; border-bottom: 1px solid var(--line); font: 500 var(--fs-0)/1.3 var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--brass); }
+.case__screen { display: flex; flex-direction: column; gap: 8px; padding: 16px 12px; background: var(--tg-bg); color: var(--tg-ink); font: 400 13.5px/1.42 var(--font-body); }
+.case__screen .tg-msg { max-width: min(360px, 96%); }
+.case__note { padding: 12px 16px; border-top: 1px solid var(--line); font-size: var(--fs-1); color: var(--ink-2); }

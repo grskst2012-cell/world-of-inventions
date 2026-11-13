@@ -1,0 +1,193 @@
+/* ════════════════════════════════════════════════════════════════════════
+   The Halls. Each room has its own wall, ink and accent, and its own
+   visual world: engraving, iron and telegraph, art deco, terminal.
+   Default layout is stacked; .is-horizontal (set by JS on wide screens
+   without reduced motion) turns it into one long corridor.
+   ════════════════════════════════════════════════════════════════════════ */
+
+[data-hall="1"] { --h-wall: #ebdfc5; --h-ink: #33241a; --h-soft: #6a5038; --h-accent: #8a3f14; --h-line: rgba(51, 36, 26, 0.28); }
+[data-hall="2"] { --h-wall: #cfd3d1; --h-ink: #161b1f; --h-soft: #40484e; --h-accent: #a3201a; --h-line: rgba(22, 27, 31, 0.3); }
+[data-hall="3"] { --h-wall: #18332f; --h-ink: #f2e6c4; --h-soft: #c9be9d; --h-accent: #e0ae4a; --h-line: rgba(224, 174, 74, 0.42); }
+[data-hall="4"] { --h-wall: #0b0f0e; --h-ink: #d4f5db; --h-soft: #8fb89a; --h-accent: #3df58a; --h-line: rgba(61, 245, 138, 0.3); }
+:root[data-theme="dark"] [data-hall="1"] { --h-wall: #1d1710; --h-ink: #eadcbe; --h-soft: #b5a27f; --h-accent: #d99355; --h-line: rgba(234, 220, 190, 0.24); }
+:root[data-theme="dark"] [data-hall="2"] { --h-wall: #13171a; --h-ink: #d8dddb; --h-soft: #9aa3a6; --h-accent: #f0604f; --h-line: rgba(216, 221, 219, 0.26); }
+:root[data-theme="dark"] [data-hall="3"] { --h-wall: #0d211e; --h-ink: #f0e3bd; --h-soft: #bdb28f; --h-accent: #e3b452; --h-line: rgba(227, 180, 82, 0.4); }
+:root[data-theme="dark"] [data-hall="4"] { --h-wall: #040706; --h-ink: #c9f2d0; --h-soft: #86ae90; --h-accent: #39ff88; --h-line: rgba(57, 255, 136, 0.3); }
+
+.halls { padding-top: var(--section); }
+.halls__stage { --hud: 56px; --prog: 46px; position: relative; background: var(--h-wall); color: var(--h-ink); transition: background-color var(--t-room) var(--ease), color var(--t-room) var(--ease); }
+.halls__hud, .halls__progress { display: none; }
+
+/* ───────────────────────────── a room */
+.room { position: relative; background-color: var(--h-wall); color: var(--h-ink); padding: clamp(48px, 8vw, 88px) var(--gutter); }
+.room__intro { max-width: 520px; }
+.room__no { display: inline-block; font: 500 var(--fs-0)/1 var(--font-mono); letter-spacing: 0.16em; text-transform: uppercase; color: var(--h-accent); padding-bottom: 10px; border-bottom: 1px solid var(--h-accent); }
+.room__name { margin-top: var(--s-5); font-size: clamp(2.2rem, 1.2rem + 3.2vw, 4rem); line-height: 0.98; }
+.room__period { margin-top: var(--s-3); font: 400 var(--fs-3)/1.2 var(--font-display); color: var(--h-accent); }
+.room__desc { margin-top: var(--s-4); max-width: 40ch; color: var(--h-soft); }
+.room__meta { margin-top: var(--s-5); font: 400 var(--fs-0)/1.4 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; }
+.room__aside { margin-top: var(--s-5); max-width: 26ch; font: italic 400 var(--fs-2)/1.35 var(--font-display); color: var(--h-soft); padding-left: var(--s-3); border-left: 1px solid var(--h-line); }
+
+/* stacked wall: a vertical timeline */
+.room__gallery { margin-top: var(--s-7); }
+.room__wall { position: relative; display: grid; gap: var(--s-4); padding-left: var(--s-5); border-left: 1px solid var(--h-line); }
+.plinth { position: relative; }
+.plinth::before { content: ""; position: absolute; left: calc(var(--s-5) * -1 - 4px); top: 22px; width: 7px; height: 7px; border-radius: 50%; background: var(--h-accent); }
+.plinth__btn { display: grid; grid-template-columns: 124px minmax(0, 1fr); align-items: center; gap: var(--s-4); width: 100%; padding: 0; border: 0; background: none; text-align: left; color: inherit; }
+.plinth__cap { display: grid; gap: 6px; }
+.plinth__no { font: 500 var(--fs-0)/1 var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--h-accent); }
+.plinth__name { font: 400 var(--fs-3)/1.15 var(--font-display); }
+.plinth__year { display: block; margin: 6px 0 0 calc(124px + var(--s-4)); font: 400 var(--fs-0)/1 var(--font-mono); letter-spacing: 0.06em; color: var(--h-soft); }
+.room .frame { background: color-mix(in srgb, var(--h-ink) 12%, var(--h-wall)); outline: 1px solid var(--h-line); outline-offset: 3px; }
+.room .frame--logo { background: #f4f0e6; }
+.room .plate { color: var(--h-soft); border-color: var(--h-line); outline-color: var(--h-line); background-image: repeating-linear-gradient(115deg, transparent 0 6px, var(--h-line) 6px 7px); }
+.room .plate__no { color: var(--h-ink); }
+.halls__stage:not(.is-horizontal) .plate__note { display: none; }
+.halls__stage:not(.is-horizontal) .plate__no { font-size: 1.9rem; }
+.plinth__btn:hover .plinth__name, .plinth__btn:focus-visible .plinth__name { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+.plinth__btn:focus-visible { outline-color: var(--h-accent); }
+/* the exhibit you look at is the one in full light */
+.room .frame img { filter: var(--h-filter, none); }
+.plinth__btn:hover .frame img, .plinth__btn:focus-visible .frame img { filter: none; }
+
+/* ───────────────────────────── Hall 1 · engraving and treatise */
+.room[data-hall="1"] { --h-filter: sepia(0.75) contrast(1.05); background-image: repeating-linear-gradient(115deg, transparent 0 9px, rgba(90, 60, 30, 0.05) 9px 10px); }
+.room[data-hall="1"] .room__name { font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-weight: 360; }
+.room[data-hall="1"] .room__period { font-style: italic; }
+.room[data-hall="1"] .plinth__name { font-style: italic; }
+.room[data-hall="1"] .frame { outline-style: double; outline-width: 3px; }
+
+/* ───────────────────────────── Hall 2 · iron, rivets, telegraph tape */
+.room[data-hall="2"] { --h-filter: grayscale(1) contrast(1.1); }
+.room[data-hall="2"] .room__gallery {
+  background-image:
+    radial-gradient(circle at 6px 14px, var(--h-line) 0 2px, transparent 2.5px),
+    linear-gradient(90deg, var(--h-line) 1px, transparent 1px);
+  background-size: 264px 44px, 264px 100%;
+}
+.room[data-hall="2"] .room__name { font-family: var(--font-body); font-weight: 800; text-transform: uppercase; letter-spacing: -0.02em; line-height: 0.92; }
+.room[data-hall="2"] .room__period { font: 600 var(--fs-1)/1 var(--font-mono); letter-spacing: 0.14em; text-transform: uppercase; }
+.room[data-hall="2"] .plinth__name { font-family: var(--font-body); font-weight: 700; font-size: var(--fs-2); text-transform: uppercase; letter-spacing: 0.01em; }
+.room[data-hall="2"] .frame {
+  outline: 0; border: 5px solid var(--h-ink);
+  background-image: radial-gradient(circle, var(--h-wall) 0 1.6px, transparent 2px);
+}
+.room[data-hall="2"] .frame::after {
+  content: ""; position: absolute; inset: -4px; pointer-events: none;
+  background:
+    radial-gradient(circle at 2.5px 2.5px, var(--h-wall) 0 1.4px, transparent 1.8px) 0 0 / 100% 100% no-repeat,
+    radial-gradient(circle at calc(100% - 2.5px) 2.5px, var(--h-wall) 0 1.4px, transparent 1.8px) no-repeat,
+    radial-gradient(circle at 2.5px calc(100% - 2.5px), var(--h-wall) 0 1.4px, transparent 1.8px) no-repeat,
+    radial-gradient(circle at calc(100% - 2.5px) calc(100% - 2.5px), var(--h-wall) 0 1.4px, transparent 1.8px) no-repeat;
+}
+
+/* ───────────────────────────── Hall 3 · art deco and the radio age */
+.room[data-hall="3"] {
+  --h-filter: grayscale(0.55) sepia(0.35);
+  background-image: repeating-conic-gradient(from -15deg at 0% 100%, transparent 0deg 4deg, rgba(224, 174, 74, 0.05) 4deg 5deg);
+}
+.room[data-hall="3"] .room__name { font-variation-settings: "opsz" 144, "SOFT" 0, "WONK" 0; font-weight: 300; text-transform: uppercase; letter-spacing: 0.06em; font-size: clamp(1.9rem, 1rem + 2.6vw, 3.2rem); line-height: 1.05; }
+.room[data-hall="3"] .room__no { border-bottom: 3px double var(--h-accent); }
+.room[data-hall="3"] .room__period { font: 500 var(--fs-1)/1 var(--font-body); letter-spacing: 0.3em; text-transform: uppercase; }
+.room[data-hall="3"] .plinth__name { font-family: var(--font-body); font-weight: 500; font-size: var(--fs-1); letter-spacing: 0.14em; text-transform: uppercase; line-height: 1.3; }
+.room[data-hall="3"] .frame { outline: 1px solid var(--h-accent); outline-offset: 4px; clip-path: polygon(10px 0, calc(100% - 10px) 0, calc(100% - 10px) 5px, calc(100% - 5px) 5px, calc(100% - 5px) 10px, 100% 10px, 100% calc(100% - 10px), calc(100% - 5px) calc(100% - 10px), calc(100% - 5px) calc(100% - 5px), calc(100% - 10px) calc(100% - 5px), calc(100% - 10px) 100%, 10px 100%, 10px calc(100% - 5px), 5px calc(100% - 5px), 5px calc(100% - 10px), 0 calc(100% - 10px), 0 10px, 5px 10px, 5px 5px, 10px 5px); }
+.room[data-hall="3"] .frame img { box-shadow: none; }
+
+/* ───────────────────────────── Hall 4 · terminal, pixels, scan lines */
+.room[data-hall="4"] {
+  --h-filter: grayscale(1) contrast(1.15) brightness(0.9);
+  background-image: linear-gradient(var(--h-line) 1px, transparent 1px), linear-gradient(90deg, var(--h-line) 1px, transparent 1px);
+  background-size: 22px 22px;
+  background-blend-mode: normal;
+}
+.room[data-hall="4"]::before { content: ""; position: absolute; inset: 0; background: var(--h-wall); opacity: 0.86; pointer-events: none; }
+.room[data-hall="4"] > * { position: relative; }
+.room[data-hall="4"] .room__name { font: 500 clamp(1.6rem, 1rem + 2vw, 2.6rem)/1.1 var(--font-mono); letter-spacing: -0.02em; text-transform: lowercase; color: var(--h-accent); }
+.room[data-hall="4"] .room__name::before { content: "> "; }
+.room[data-hall="4"] .room__name::after { content: "_"; animation: blink 1.1s steps(1) infinite; }
+.room[data-hall="4"] .room__period { font: 400 var(--fs-1)/1 var(--font-mono); }
+.room[data-hall="4"] .room__desc, .room[data-hall="4"] .room__aside { font-family: var(--font-mono); font-style: normal; font-size: var(--fs-1); }
+.room[data-hall="4"] .plinth__name { font: 500 var(--fs-1)/1.3 var(--font-mono); }
+.room[data-hall="4"] .frame { outline: 1px solid var(--h-accent); outline-offset: 0; }
+.room[data-hall="4"] .frame::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.28) 0 1px, transparent 1px 3px); }
+@keyframes blink { 50% { opacity: 0; } }
+
+/* ════════════════════════════════════════════════════════════════════════
+   The corridor: horizontal travel on wide screens
+   ════════════════════════════════════════════════════════════════════════ */
+.is-horizontal { height: calc(100vh - var(--nav-h)); overflow: hidden; }
+.is-horizontal .halls__track { display: flex; width: max-content; height: 100%; will-change: transform; }
+.is-horizontal .room { --step: 138px; display: flex; flex: none; height: 100%; padding: var(--hud) 0 var(--prog); border-left: 14px solid var(--h-ink); }
+.is-horizontal .room:first-child { border-left: 0; }
+.is-horizontal .room__intro { flex: none; align-self: center; width: min(470px, 38vw); padding: 0 40px 0 clamp(40px, 5vw, 80px); }
+.is-horizontal .room__gallery { margin: 0; height: 100%; padding: 14px 90px 14px 30px; }
+.is-horizontal .room__wall {
+  height: 100%; padding: 0; border: 0; gap: 0;
+  grid-template-rows: 1fr 1fr; grid-auto-flow: column; grid-auto-columns: var(--step); row-gap: 50px;
+}
+/* the rail: the timeline every plinth is pinned to */
+.is-horizontal .room__wall::before {
+  content: attr(data-tape); position: absolute; left: -30px; right: -90px; top: 50%; height: 1px;
+  background: var(--h-line); overflow: visible;
+}
+.is-horizontal .plinth { grid-column: calc(var(--i) + 1) / span 2; display: flex; flex-direction: column; align-items: stretch; padding-inline: 12px; min-height: 0; }
+.is-horizontal .plinth::before { display: none; }
+.is-horizontal .plinth--high { grid-row: 1; justify-content: flex-end; }
+.is-horizontal .plinth--low { grid-row: 2; flex-direction: column-reverse; justify-content: flex-end; }
+.is-horizontal .plinth__btn { display: flex; flex-direction: column; gap: 12px; }
+.is-horizontal .plinth--high .plinth__btn { flex-direction: column-reverse; }
+.is-horizontal .frame--thumb { aspect-ratio: auto; width: 100%; height: min(180px, 19vh); }
+.is-horizontal .plinth__year { position: relative; margin: 0; padding: 20px 0 6px; text-align: left; }
+.is-horizontal .plinth--low .plinth__year { padding: 6px 0 20px; }
+.is-horizontal .plinth__year::before { content: ""; position: absolute; left: 0; top: 0; width: 1px; height: 16px; background: var(--h-accent); }
+.is-horizontal .plinth--low .plinth__year::before { top: auto; bottom: 0; }
+.is-horizontal .plinth__year::after { content: ""; position: absolute; left: -3px; bottom: -28px; width: 7px; height: 7px; border-radius: 50%; background: var(--h-accent); }
+.is-horizontal .plinth--low .plinth__year::after { bottom: auto; top: -28px; }
+.is-horizontal .plinth__name { font-size: var(--fs-2); }
+.is-horizontal .room[data-hall="1"] .plinth__name { font-size: 1.0625rem; }
+
+/* rail dressing per hall */
+.is-horizontal .room[data-hall="1"] .room__wall::before { height: 9px; margin-top: -4px; background: repeating-linear-gradient(90deg, var(--h-line) 0 1px, transparent 1px 23px), linear-gradient(var(--h-line), var(--h-line)) 0 4px / 100% 1px no-repeat; }
+.is-horizontal .room[data-hall="2"] .room__wall::before {
+  height: 22px; margin-top: -11px; padding-top: 4px; overflow: hidden; white-space: nowrap;
+  font: 500 10px/14px var(--font-mono); letter-spacing: 0.22em; color: var(--h-ink);
+  background: color-mix(in srgb, var(--h-ink) 9%, var(--h-wall)); border-block: 1px solid var(--h-line);
+}
+.is-horizontal .room[data-hall="3"] .room__wall::before { height: 13px; margin-top: -6px; background: repeating-linear-gradient(90deg, var(--h-accent) 0 1px, transparent 1px 12px) 0 0 / 100% 5px no-repeat, repeating-linear-gradient(90deg, var(--h-accent) 0 1px, transparent 1px 60px) 0 0 / 100% 13px no-repeat, linear-gradient(var(--h-line), var(--h-line)) 0 0 / 100% 1px no-repeat; opacity: 0.8; }
+.is-horizontal .room[data-hall="4"] .room__wall::before { height: 4px; margin-top: -2px; background: repeating-linear-gradient(90deg, var(--h-accent) 0 4px, transparent 4px 10px); opacity: 0.7; }
+.is-horizontal .room[data-hall="2"] .plinth__year::after, .is-horizontal .room[data-hall="4"] .plinth__year::after { border-radius: 0; }
+.is-horizontal .room[data-hall="2"] .plinth__year::after { bottom: -37px; }
+.is-horizontal .room[data-hall="2"] .plinth--low .plinth__year::after { top: -37px; }
+
+/* heads-up bar and progress, tinted by the hall you are standing in */
+.is-horizontal .halls__hud, .is-horizontal .halls__progress {
+  position: absolute; left: 0; right: 0; z-index: 3; display: flex; align-items: center;
+  background: var(--h-wall); color: var(--h-ink);
+  transition: background-color var(--t-room) var(--ease), color var(--t-room) var(--ease), border-color var(--t-room) var(--ease);
+}
+.is-horizontal .halls__hud { top: 0; height: var(--hud); justify-content: space-between; gap: var(--s-4); padding-inline: var(--gutter); border-bottom: 1px solid var(--h-line); }
+.halls__now { font: 500 var(--fs-0)/1.2 var(--font-mono); letter-spacing: 0.12em; text-transform: uppercase; }
+.halls__jumps { display: flex; gap: 6px; }
+.halls__jumps button { width: 44px; height: 36px; border: 1px solid var(--h-line); border-radius: var(--r-1); background: none; color: inherit; font: 500 var(--fs-1)/1 var(--font-mono); transition: background-color var(--t-fast), color var(--t-fast); }
+.halls__jumps button:hover, .halls__jumps button[aria-current] { background: var(--h-ink); color: var(--h-wall); }
+.halls__jumps button:focus-visible { outline-color: var(--h-accent); }
+.is-horizontal .halls__progress { bottom: 0; height: var(--prog); border-top: 1px solid var(--h-line); }
+.halls__seg { flex: 1 1 0; height: 100%; display: flex; align-items: center; padding-left: 14px; border-left: 1px solid var(--h-line); overflow: hidden; }
+.halls__seg i { font: 400 var(--fs-0)/1 var(--font-mono); font-style: normal; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; opacity: 0.75; }
+.halls__marker { position: absolute; left: 0; top: -1px; width: 2px; height: calc(100% + 1px); background: var(--h-accent); }
+.halls__marker::before { content: ""; position: absolute; left: -5px; top: 0; border: 6px solid transparent; border-top-color: var(--h-accent); }
+
+/* night museum: frames sit in half-light until the visitor's torch (the pointer) or focus reaches them */
+:root[data-theme="dark"] .room .frame img { filter: var(--h-filter, none) brightness(0.72); }
+:root[data-theme="dark"] .plinth__btn:hover .frame img, :root[data-theme="dark"] .plinth__btn:focus-visible .frame img { filter: none; }
+@media (hover: hover) {
+  :root[data-theme="dark"] .is-horizontal::after {
+    content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background: radial-gradient(380px circle at var(--mx, 50%) var(--my, 40%), rgba(255, 224, 170, 0.12), transparent 70%);
+  }
+}
+
+@media (max-width: 479px) {
+  .plinth__btn { grid-template-columns: 96px minmax(0, 1fr); gap: var(--s-3); }
+  .plinth__year { margin-left: calc(96px + var(--s-3)); }
+}

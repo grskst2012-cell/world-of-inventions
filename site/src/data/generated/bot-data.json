@@ -1,0 +1,826 @@
+{
+  "museumName": "World of Inventions",
+  "halls": {
+    "1": {
+      "title": "17th–18th centuries",
+      "name": "Foundations of Modern Science",
+      "description": "Scientific breakthroughs and early machines that helped launch the age of invention."
+    },
+    "2": {
+      "title": "19th century",
+      "name": "The Industrial Age",
+      "description": "Steam power, communication, household devices and new ways to travel."
+    },
+    "3": {
+      "title": "1900–1950",
+      "name": "The Age of Modern Technology",
+      "description": "Early aviation, modern medicine, radio and the first electronic-era inventions."
+    },
+    "4": {
+      "title": "1950–present",
+      "name": "The Digital and Connected Age",
+      "description": "Computing, 3D printing, digital media and artificial intelligence."
+    }
+  },
+  "quizRoundSize": 10,
+  "quiz": [
+    {
+      "question": "Who is commonly credited with inventing the telephone?",
+      "options": [
+        "Alexander Graham Bell",
+        "Thomas Edison",
+        "James Watt",
+        "Tim Berners-Lee"
+      ],
+      "answer": 0,
+      "fact": "Bell was awarded a key telephone patent in 1876, although several inventors contributed to telephone technology."
+    },
+    {
+      "question": "Which inventor is famous for major improvements to the steam engine?",
+      "options": [
+        "James Watt",
+        "Charles Babbage",
+        "John Logie Baird",
+        "Alexander Fleming"
+      ],
+      "answer": 0,
+      "fact": "Watt's separate condenser made steam engines significantly more efficient."
+    },
+    {
+      "question": "Who created basketball in 1891?",
+      "options": [
+        "James Naismith",
+        "Alexander Fleming",
+        "Tim Berners-Lee",
+        "John Dunlop"
+      ],
+      "answer": 0,
+      "fact": "Canadian-born James Naismith invented basketball while working in Springfield, Massachusetts."
+    },
+    {
+      "question": "Who invented the World Wide Web?",
+      "options": [
+        "Tim Berners-Lee",
+        "Steve Jobs",
+        "Alan Turing",
+        "Bill Gates"
+      ],
+      "answer": 0,
+      "fact": "Berners-Lee proposed the World Wide Web in 1989 while working at CERN."
+    },
+    {
+      "question": "What does WWW stand for?",
+      "options": [
+        "World Wide Web",
+        "Wide World Window",
+        "Web World Wire",
+        "World Wireless Work"
+      ],
+      "answer": 0,
+      "fact": "The World Wide Web links pages and resources using web technologies."
+    },
+    {
+      "question": "Which invention is associated with John Logie Baird?",
+      "options": [
+        "Early television",
+        "The steam engine",
+        "The safety elevator",
+        "The World Wide Web"
+      ],
+      "answer": 0,
+      "fact": "Baird demonstrated an early working television system in the 1920s."
+    },
+    {
+      "question": "Who is associated with the invention of the pneumatic tyre in the 1880s?",
+      "options": [
+        "John Boyd Dunlop",
+        "James Watt",
+        "Charles Darwin",
+        "Isaac Newton"
+      ],
+      "answer": 0,
+      "fact": "Dunlop developed a practical pneumatic tyre for bicycles in the 1880s."
+    },
+    {
+      "question": "Who designed an early general-purpose mechanical computer called the Analytical Engine?",
+      "options": [
+        "Charles Babbage",
+        "Alan Turing",
+        "Tim Berners-Lee",
+        "Michael Faraday"
+      ],
+      "answer": 0,
+      "fact": "Babbage designed the Analytical Engine in the 19th century, though it was not completed in his lifetime."
+    },
+    {
+      "question": "Who wrote notes for the Analytical Engine that are often described as an early computer program?",
+      "options": [
+        "Ada Lovelace",
+        "Mary Anning",
+        "Rosalind Franklin",
+        "Florence Nightingale"
+      ],
+      "answer": 0,
+      "fact": "Ada Lovelace's notes included an algorithm intended for Babbage's machine."
+    },
+    {
+      "question": "Which scientist discovered penicillin in 1928?",
+      "options": [
+        "Alexander Fleming",
+        "Isaac Newton",
+        "Michael Faraday",
+        "Joseph Lister"
+      ],
+      "answer": 0,
+      "fact": "Fleming noticed that a mould inhibited bacterial growth; later work developed penicillin into a medicine."
+    },
+    {
+      "question": "Which two Canadian scientists are especially associated with the discovery of insulin's medical potential?",
+      "options": [
+        "Frederick Banting and Charles Best",
+        "James Naismith and John McCrae",
+        "Alexander Graham Bell and Sanford Fleming",
+        "David Suzuki and William Osler"
+      ],
+      "answer": 0,
+      "fact": "Banting and Best worked with colleagues at the University of Toronto in 1921."
+    },
+    {
+      "question": "Who invented the first successful commercial typewriter?",
+      "options": [
+        "Christopher Latham Sholes and collaborators",
+        "The Wright brothers",
+        "Banting and Best",
+        "Watson and Crick"
+      ],
+      "answer": 0,
+      "fact": "Sholes and collaborators developed a typewriter that entered commercial production in the 1870s."
+    },
+    {
+      "question": "Which brothers made the first widely recognised powered, controlled airplane flight in 1903?",
+      "options": [
+        "Orville and Wilbur Wright",
+        "The Lumière brothers",
+        "The Warner brothers",
+        "The Montgolfier brothers"
+      ],
+      "answer": 0,
+      "fact": "The Wright brothers flew their powered aircraft at Kitty Hawk, North Carolina."
+    },
+    {
+      "question": "Which invention is closely associated with Samuel Morse?",
+      "options": [
+        "The electric telegraph and Morse code",
+        "The telephone",
+        "The steam locomotive",
+        "The microwave oven"
+      ],
+      "answer": 0,
+      "fact": "Morse code uses sequences of dots and dashes to represent letters and numbers."
+    },
+    {
+      "question": "What was the Penny Black?",
+      "options": [
+        "The world's first adhesive postage stamp used for public mail",
+        "An early camera",
+        "A steam locomotive",
+        "A type of battery"
+      ],
+      "answer": 0,
+      "fact": "The Penny Black was issued in the United Kingdom in 1840."
+    },
+    {
+      "question": "Who developed the first practical incandescent light bulb system for widespread use?",
+      "options": [
+        "Thomas Edison and his team",
+        "James Naismith",
+        "Tim Berners-Lee",
+        "Alexander Fleming"
+      ],
+      "answer": 0,
+      "fact": "Many inventors worked on electric lighting; Edison and his team helped make a practical commercial system."
+    },
+    {
+      "question": "Which scientist is known for foundational work on electromagnetism and the electric motor?",
+      "options": [
+        "Michael Faraday",
+        "Charles Dickens",
+        "James Cook",
+        "John Dunlop"
+      ],
+      "answer": 0,
+      "fact": "Faraday's experiments with electromagnetic induction helped shape modern electrical technology."
+    },
+    {
+      "question": "Who is commonly credited with inventing the first practical refrigerator for artificial cooling in the 19th century?",
+      "options": [
+        "James Harrison",
+        "Alexander Fleming",
+        "James Naismith",
+        "John Logie Baird"
+      ],
+      "answer": 0,
+      "fact": "James Harrison, a Scottish-born Australian, developed practical mechanical refrigeration systems in Australia."
+    },
+    {
+      "question": "Which invention allows sound to be recorded and played back?",
+      "options": [
+        "The phonograph",
+        "The telescope",
+        "The compass",
+        "The barometer"
+      ],
+      "answer": 0,
+      "fact": "Thomas Edison demonstrated his phonograph in 1877."
+    },
+    {
+      "question": "Who is associated with the invention of the first commercially successful sewing machine in the United States?",
+      "options": [
+        "Isaac Singer",
+        "Alexander Graham Bell",
+        "James Watt",
+        "John Harrison"
+      ],
+      "answer": 0,
+      "fact": "Singer helped popularise sewing machines, building on earlier designs by several inventors."
+    },
+    {
+      "question": "What did the Jacquard loom use to control patterns in weaving?",
+      "options": [
+        "Punched cards",
+        "Radio waves",
+        "Steam turbines",
+        "Magnetic tape"
+      ],
+      "answer": 0,
+      "fact": "The punched-card control of the Jacquard loom later inspired ideas in computing."
+    },
+    {
+      "question": "Who invented the first successful practical electric battery, known as the voltaic pile?",
+      "options": [
+        "Alessandro Volta",
+        "Michael Faraday",
+        "Thomas Edison",
+        "Nikola Tesla"
+      ],
+      "answer": 0,
+      "fact": "Volta, an Italian physicist, presented the voltaic pile in 1800."
+    },
+    {
+      "question": "Which technology is used to transmit information through pulses of light in thin strands?",
+      "options": [
+        "Fibre-optic communication",
+        "Steam power",
+        "Movable type",
+        "Pneumatic tyres"
+      ],
+      "answer": 0,
+      "fact": "Fibre-optic cables carry data as light and are central to modern high-speed networks."
+    },
+    {
+      "question": "Which British mathematician helped establish theoretical foundations of modern computing during World War II?",
+      "options": [
+        "Alan Turing",
+        "Charles Darwin",
+        "James Watt",
+        "Isaac Newton"
+      ],
+      "answer": 0,
+      "fact": "Turing made major contributions to computation theory and wartime codebreaking."
+    },
+    {
+      "question": "What was the main purpose of the early telegraph?",
+      "options": [
+        "To send messages over long distances using electrical signals",
+        "To print photographs in colour",
+        "To cool food",
+        "To measure earthquakes"
+      ],
+      "answer": 0,
+      "fact": "Electric telegraphs greatly sped up long-distance communication in the 19th century."
+    },
+    {
+      "question": "Which device measures atmospheric pressure and can help forecast weather?",
+      "options": [
+        "A barometer",
+        "A microscope",
+        "A phonograph",
+        "A typewriter"
+      ],
+      "answer": 0,
+      "fact": "Changes in air pressure are useful clues for weather forecasting."
+    },
+    {
+      "question": "Which invention made it easier to reproduce books and documents in large numbers before modern digital printing?",
+      "options": [
+        "The printing press",
+        "The telephone",
+        "The electric fan",
+        "The bicycle tyre"
+      ],
+      "answer": 0,
+      "fact": "Movable-type printing spread through Europe after Johannes Gutenberg's 15th-century press."
+    },
+    {
+      "question": "Which technology made it possible for computers to exchange information across interconnected networks?",
+      "options": [
+        "Internet networking protocols",
+        "The steam engine",
+        "The sewing machine",
+        "The pneumatic tyre"
+      ],
+      "answer": 0,
+      "fact": "The internet grew through decades of research and the development of shared networking protocols."
+    },
+    {
+      "question": "Which Australian inventor is associated with the black box flight recorder's early development?",
+      "options": [
+        "David Warren",
+        "James Harrison",
+        "John Dunlop",
+        "Howard Florey"
+      ],
+      "answer": 0,
+      "fact": "Australian scientist David Warren proposed a flight recorder that could preserve cockpit information."
+    },
+    {
+      "question": "What is the main purpose of a safety elevator brake?",
+      "options": [
+        "To help stop an elevator if its suspension system fails",
+        "To make a telephone louder",
+        "To cool an engine",
+        "To print a document"
+      ],
+      "answer": 0,
+      "fact": "Elisha Otis demonstrated an elevator safety device in 1854, helping improve public confidence in lifts."
+    },
+    {
+      "question": "Which scientist is associated with the discovery of the structure of DNA using X-ray diffraction images that contributed to the breakthrough?",
+      "options": [
+        "Rosalind Franklin",
+        "Ada Lovelace",
+        "Mary Anning",
+        "Florence Nightingale"
+      ],
+      "answer": 0,
+      "fact": "Franklin's X-ray diffraction work provided important evidence about DNA's structure."
+    },
+    {
+      "question": "Which device converts mechanical energy into electrical energy?",
+      "options": [
+        "An electric generator",
+        "A loudspeaker only",
+        "A typewriter",
+        "A microscope"
+      ],
+      "answer": 0,
+      "fact": "Generators use electromagnetic induction to produce electrical energy."
+    },
+    {
+      "question": "What is an invention?",
+      "options": [
+        "A newly created device, method or process",
+        "Only a famous painting",
+        "A type of weather",
+        "A historical date"
+      ],
+      "answer": 0,
+      "fact": "Inventions can be objects, processes or new ways of solving problems."
+    },
+    {
+      "question": "Which invention helped people speak to one another over long distances in real time?",
+      "options": [
+        "The telephone",
+        "The telescope",
+        "The printing press",
+        "The barometer"
+      ],
+      "answer": 0,
+      "fact": "The telephone transmitted speech electrically, changing personal and business communication."
+    },
+    {
+      "question": "Which machine is designed to turn heat energy from steam into mechanical work?",
+      "options": [
+        "A steam engine",
+        "A barometer",
+        "A microscope",
+        "A phonograph"
+      ],
+      "answer": 0,
+      "fact": "Steam engines powered pumps, factories, ships and locomotives during industrialisation."
+    },
+    {
+      "question": "What is the key role of a computer algorithm?",
+      "options": [
+        "To give a sequence of steps for solving a problem",
+        "To generate electricity directly",
+        "To cool a room",
+        "To measure air pressure"
+      ],
+      "answer": 0,
+      "fact": "Algorithms are step-by-step procedures used in computing and many other fields."
+    },
+    {
+      "question": "Which invention made personal transport practical for many people using two wheels and pedals?",
+      "options": [
+        "The bicycle",
+        "The telegraph",
+        "The printing press",
+        "The microscope"
+      ],
+      "answer": 0,
+      "fact": "The bicycle evolved through many designs during the 19th century."
+    },
+    {
+      "question": "Why are standardised shipping containers important?",
+      "options": [
+        "They make cargo easier to transfer between ships, trains and trucks",
+        "They produce electricity",
+        "They send radio signals",
+        "They replace computer memory"
+      ],
+      "answer": 0,
+      "fact": "Containerisation transformed global trade by standardising cargo handling."
+    }
+  ],
+  "countryInfo": {
+    "England": [
+      "🇬🇧",
+      "Europe"
+    ],
+    "Scotland": [
+      "🇬🇧",
+      "Europe"
+    ],
+    "Ireland": [
+      "🇮🇪",
+      "Europe"
+    ],
+    "France": [
+      "🇫🇷",
+      "Europe"
+    ],
+    "United States": [
+      "🇺🇸",
+      "North America"
+    ],
+    "Canada": [
+      "🇨🇦",
+      "North America"
+    ],
+    "Australia": [
+      "🇦🇺",
+      "Oceania"
+    ],
+    "International": [
+      "🌐",
+      "International"
+    ]
+  },
+  "continents": [
+    [
+      "Europe",
+      "🌍"
+    ],
+    [
+      "North America",
+      "🌎"
+    ],
+    [
+      "Oceania",
+      "🌏"
+    ]
+  ],
+  "periodOrder": [
+    "17th century",
+    "18th century",
+    "19th century",
+    "20th century",
+    "21st century"
+  ],
+  "monthNames": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "historyKindIcons": {
+    "invention": "💡",
+    "discovery": "🔬",
+    "milestone": "🚀"
+  },
+  "spellingVariants": {
+    "tire": "tyre",
+    "tires": "tyre",
+    "color": "colour",
+    "colors": "colour",
+    "colorization": "colourisation",
+    "colourization": "colourisation",
+    "colorisation": "colourisation"
+  },
+  "listBackLabels": {
+    "hall": "⬅️ Hall",
+    "catalog": "⬅️ Catalogue",
+    "fav": "⬅️ Favorites",
+    "country": "⬅️ Country",
+    "res": "⬅️ Results"
+  },
+  "captionLimit": 1024,
+  "itemsPerPage": 8,
+  "favoriteAddText": "⭐ Add Favorite",
+  "favoriteRemoveText": "💔 Remove Favorite",
+  "keyboards": {
+    "navRow": [
+      {
+        "text": "⬅️ Museum Menu",
+        "cb": "museum"
+      },
+      {
+        "text": "🏠 Main Menu",
+        "cb": "home"
+      }
+    ],
+    "main": [
+      [
+        {
+          "text": "🏛 Enter the Museum",
+          "cb": "museum"
+        }
+      ],
+      [
+        {
+          "text": "⭐ Favorites",
+          "cb": "favorites"
+        },
+        {
+          "text": "📊 Statistics",
+          "cb": "stats"
+        }
+      ],
+      [
+        {
+          "text": "📅 This Day",
+          "cb": "history:today"
+        },
+        {
+          "text": "🗺 Map",
+          "cb": "map"
+        }
+      ],
+      [
+        {
+          "text": "🔎 Search",
+          "cb": "search"
+        },
+        {
+          "text": "🧠 Quiz",
+          "cb": "quiz:start"
+        }
+      ],
+      [
+        {
+          "text": "💬 Feedback",
+          "cb": "feedback"
+        },
+        {
+          "text": "👥 Team",
+          "cb": "team"
+        }
+      ]
+    ],
+    "museum": [
+      [
+        {
+          "text": "🏛 Explore the Halls",
+          "cb": "halls"
+        }
+      ],
+      [
+        {
+          "text": "📚 Catalogue",
+          "cb": "catalog"
+        },
+        {
+          "text": "🔎 Search",
+          "cb": "search"
+        }
+      ],
+      [
+        {
+          "text": "⭐ Favorites",
+          "cb": "favorites"
+        },
+        {
+          "text": "🗺 Map",
+          "cb": "map"
+        }
+      ],
+      [
+        {
+          "text": "📊 Statistics",
+          "cb": "stats"
+        },
+        {
+          "text": "⬅️ Main Menu",
+          "cb": "home"
+        }
+      ]
+    ],
+    "halls": [
+      [
+        {
+          "text": "Hall 1 · 17th–18th centuries",
+          "cb": "hall:1"
+        }
+      ],
+      [
+        {
+          "text": "Hall 2 · 19th century",
+          "cb": "hall:2"
+        }
+      ],
+      [
+        {
+          "text": "Hall 3 · 1900–1950",
+          "cb": "hall:3"
+        }
+      ],
+      [
+        {
+          "text": "Hall 4 · 1950–present",
+          "cb": "hall:4"
+        }
+      ],
+      [
+        {
+          "text": "⬅️ Museum Menu",
+          "cb": "museum"
+        },
+        {
+          "text": "🏠 Main Menu",
+          "cb": "home"
+        }
+      ]
+    ]
+  },
+  "schema": [
+    {
+      "table": "favorites",
+      "columns": [
+        {
+          "name": "user_id",
+          "type": "INTEGER",
+          "constraints": "NOT NULL",
+          "pk": true
+        },
+        {
+          "name": "invention_id",
+          "type": "TEXT",
+          "constraints": "NOT NULL",
+          "pk": true
+        },
+        {
+          "name": "added_at",
+          "type": "TIMESTAMP",
+          "constraints": "DEFAULT CURRENT_TIMESTAMP",
+          "pk": false
+        }
+      ]
+    },
+    {
+      "table": "user_stats",
+      "columns": [
+        {
+          "name": "user_id",
+          "type": "INTEGER",
+          "constraints": "PRIMARY KEY",
+          "pk": true
+        },
+        {
+          "name": "studied_exhibits",
+          "type": "INTEGER",
+          "constraints": "NOT NULL DEFAULT 0",
+          "pk": false
+        },
+        {
+          "name": "correct_answers",
+          "type": "INTEGER",
+          "constraints": "NOT NULL DEFAULT 0",
+          "pk": false
+        },
+        {
+          "name": "total_answers",
+          "type": "INTEGER",
+          "constraints": "NOT NULL DEFAULT 0",
+          "pk": false
+        },
+        {
+          "name": "quizzes_completed",
+          "type": "INTEGER",
+          "constraints": "NOT NULL DEFAULT 0",
+          "pk": false
+        }
+      ]
+    },
+    {
+      "table": "studied_exhibits",
+      "columns": [
+        {
+          "name": "user_id",
+          "type": "INTEGER",
+          "constraints": "NOT NULL",
+          "pk": true
+        },
+        {
+          "name": "invention_id",
+          "type": "TEXT",
+          "constraints": "NOT NULL",
+          "pk": true
+        },
+        {
+          "name": "studied_at",
+          "type": "TIMESTAMP",
+          "constraints": "DEFAULT CURRENT_TIMESTAMP",
+          "pk": false
+        }
+      ]
+    },
+    {
+      "table": "opened_halls",
+      "columns": [
+        {
+          "name": "user_id",
+          "type": "INTEGER",
+          "constraints": "NOT NULL",
+          "pk": true
+        },
+        {
+          "name": "hall_id",
+          "type": "TEXT",
+          "constraints": "NOT NULL",
+          "pk": true
+        },
+        {
+          "name": "opened_at",
+          "type": "TIMESTAMP",
+          "constraints": "DEFAULT CURRENT_TIMESTAMP",
+          "pk": false
+        }
+      ]
+    }
+  ],
+  "snippets": {
+    "validate": {
+      "file": "handlers.py",
+      "line": 127,
+      "code": "for item in items:\n    missing = required - item.keys()\n    if missing:\n        raise ValueError(f\"Invention {item.get('id', '?')} is missing fields: {sorted(missing)}\")\n    if str(item[\"hall\"]) not in HALLS:\n        raise ValueError(f\"Invention {item['id']} has an invalid hall: {item['hall']}\")\n    unknown = [c for c in item[\"map_countries\"] if c not in COUNTRY_INFO]\n    if unknown or not item[\"map_countries\"]:\n        raise ValueError(f\"Invention {item['id']} has invalid map_countries: {item['map_countries']}\")\n    ids.append(item[\"id\"])\nif len(ids) != len(set(ids)):\n    raise ValueError(\"Duplicate invention IDs found in data/inventions.json\")"
+    },
+    "edit": {
+      "file": "handlers.py",
+      "line": 259,
+      "code": "async def show_text(message: Message, text: str, reply_markup=None, **kwargs):\n    \"\"\"Show a text screen in place of whatever the bot message currently is.\n    A text message is edited; a photo message cannot become text, so the new text\n    message is sent and the old photo message (with its caption) is deleted.\"\"\"\n    if message.photo:\n        await message.answer(text, reply_markup=reply_markup, **kwargs)\n        await safe_delete(message)\n        return\n    try:\n        await message.edit_text(text, reply_markup=reply_markup, **kwargs)\n    except TelegramBadRequest as exc:\n        if not is_not_modified(exc):\n            raise"
+    },
+    "quiz": {
+      "file": "handlers.py",
+      "line": 1023,
+      "code": "round_size = min(QUIZ_ROUND_SIZE, len(QUIZ))\nquestion_order = random.sample(range(len(QUIZ)), k=round_size)\n# Each question gets its own shuffled option order. We store original option\n# indexes so the bot can still identify the correct answer after shuffling.\noption_orders = []\nfor question_index in question_order:\n    order = list(range(len(QUIZ[question_index][\"options\"])))\n    random.shuffle(order)\n    option_orders.append(order)"
+    },
+    "stats": {
+      "file": "database.py",
+      "line": 96,
+      "code": "def mark_exhibit_studied(user_id: int, invention_id: str):\n    with get_connection() as db:\n        cursor = db.execute(\n            \"INSERT OR IGNORE INTO studied_exhibits (user_id, invention_id) VALUES (?, ?)\",\n            (user_id, invention_id),\n        )\n        if cursor.rowcount:\n            db.execute(\"\"\"\n                INSERT INTO user_stats (user_id, studied_exhibits)\n                VALUES (?, 1)\n                ON CONFLICT(user_id) DO UPDATE SET\n                    studied_exhibits = studied_exhibits + 1\n            \"\"\", (user_id,))"
+    },
+    "fsm": {
+      "file": "handlers.py",
+      "line": 506,
+      "code": "@router.message(FeedbackState.waiting_for_message, F.text)\nasync def receive_feedback(message: Message, state: FSMContext, bot: Bot):\n    feedback = message.text.strip()\n    if not feedback:\n        await message.answer(\"Your message seems to be empty. Please try again.\")\n        return"
+    },
+    "nearest": {
+      "file": "handlers.py",
+      "line": 810,
+      "code": "upcoming = min(HISTORY, key=lambda e: next_occurrence(e, today))\npast = max(HISTORY, key=lambda e: previous_occurrence(e, today))\nahead = (next_occurrence(upcoming, today) - today).days\nbehind = (today - previous_occurrence(past, today)).days\nevents = [past, upcoming] if behind <= ahead else [upcoming, past]"
+    }
+  },
+  "fsmStates": [
+    {
+      "group": "SearchState",
+      "states": [
+        "waiting_for_query"
+      ]
+    },
+    {
+      "group": "FeedbackState",
+      "states": [
+        "waiting_for_message"
+      ]
+    }
+  ]
+}
