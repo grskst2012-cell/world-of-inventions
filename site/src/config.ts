@@ -19,7 +19,7 @@ export const REPO_URL = '';
 
 // TODO: the address the site is deployed to (no trailing slash). It is only
 // used for the absolute Open Graph / Twitter image URL.
-export const SITE_URL = 'https://world-of-inventions-museum.netlify.app';
+export const SITE_URL = 'https://world-of-inventions.onrender.com';
 
 export interface TeamMember {
   name: string;

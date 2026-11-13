@@ -158,7 +158,7 @@ from a sub-folder without extra settings.
 Or use a GitHub Actions workflow with `working-directory: site`, the steps
 `npm ci` and `npm run build`, and `actions/upload-pages-artifact` pointing at `site/dist`.
 
-**Render** (bot and site together)
+**Render** (bot and site together). Live: site https://world-of-inventions.onrender.com, bot service https://world-of-inventions-bot.onrender.com
 
 `../render.yaml` is a Render Blueprint: Render > New > Blueprint > this repository.
 It creates the static site (`site/`, `npm ci && npm run build`, publish `dist`) and the
