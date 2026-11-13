@@ -158,10 +158,14 @@ from a sub-folder without extra settings.
 Or use a GitHub Actions workflow with `working-directory: site`, the steps
 `npm ci` and `npm run build`, and `actions/upload-pages-artifact` pointing at `site/dist`.
 
-**Netlify** (live: https://world-of-inventions-museum.netlify.app)
+**Render** (bot and site together)
 
-Redeploy after a change: `npm run build`, then `netlify deploy --prod --dir dist`
-(run inside `site/`, logged in with `netlify login`). `netlify.toml` holds the settings.
+`../render.yaml` is a Render Blueprint: Render > New > Blueprint > this repository.
+It creates the static site (`site/`, `npm ci && npm run build`, publish `dist`) and the
+bot as a free web service in webhook mode. Enter `BOT_TOKEN` and `ADMIN_ID` when asked.
+Every push to `main` redeploys both.
+
+**Netlify**
 
 - Base directory: `site`
 - Build command: `npm run build`

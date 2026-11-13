@@ -43,3 +43,13 @@ An educational Telegram bot built with Python and aiogram 3.
    ```
 
 Never share your bot token or commit `.env` to a public repository.
+
+## Hosting on Render
+
+`render.yaml` describes two services: the bot (free web service) and the site (static).
+On Render, `bot.py` sees `RENDER_EXTERNAL_URL` and switches from polling to a webhook
+(`/telegram-webhook`, protected by a secret derived from the token).
+
+- Do not run `bot.py` on your computer while the Render copy is live: polling removes the webhook.
+- The free service sleeps after 15 minutes without messages; the first reply after that takes about a minute.
+- The free service has no permanent disk: favorites and statistics in SQLite reset on every restart or deploy.
