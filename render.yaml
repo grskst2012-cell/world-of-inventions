@@ -1,5 +1,5 @@
-# Render Blueprint: the Telegram bot (Python web service, webhook) and the
-# showcase site (static). Render > New > Blueprint > pick this repository.
+# Render Blueprint: the Telegram bot (Python web service, webhook).
+# The showcase site is published by GitHub Pages (.github/workflows/pages.yml).
 services:
   - type: web
     name: world-of-inventions-bot
@@ -17,20 +17,3 @@ services:
       - key: ADMIN_ID
         sync: false
 
-  - type: web
-    name: world-of-inventions
-    runtime: static
-    rootDir: site
-    buildCommand: npm ci && npm run build
-    staticPublishPath: dist
-    autoDeploy: true
-    envVars:
-      - key: NODE_VERSION
-        value: "22"
-    headers:
-      - path: /exhibits/*
-        name: Cache-Control
-        value: public, max-age=604800
-      - path: /assets/*
-        name: Cache-Control
-        value: public, max-age=31536000, immutable

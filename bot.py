@@ -19,6 +19,10 @@ WEBHOOK_PATH = "/telegram-webhook"
 # Telegram allows only A-Z, a-z, 0-9, _ and - here; by default it is derived from the token.
 WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET", "").strip() or hashlib.sha256(BOT_TOKEN.encode()).hexdigest()[:48]
 PORT = int(os.getenv("PORT", "10000"))
+# A free Render service falls asleep after 15 minutes without incoming requests.
+# The bot calls its own public address every few minutes so it stays awake 24/7
+# (one service running all month fits Render's 750 free hours). 0 turns it off.
+KEEP_AWAKE_MINUTES = float(os.getenv("KEEP_AWAKE_MINUTES", "10"))
 
 
 def build_dispatcher() -> Dispatcher:
@@ -54,7 +58,25 @@ def run_webhook():
         )
         print(f"World of Inventions is running (webhook {WEBHOOK_BASE_URL}{WEBHOOK_PATH})!")
 
+    async def keep_awake():
+        import aiohttp
+        await asyncio.sleep(60)
+        async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=30)) as session:
+            while True:
+                try:
+                    async with session.get(f"{WEBHOOK_BASE_URL}/") as response:
+                        logging.info("keep-awake ping: HTTP %s", response.status)
+                except Exception as exc:
+                    logging.warning("keep-awake ping failed: %s", exc)
+                await asyncio.sleep(KEEP_AWAKE_MINUTES * 60)
+
+    async def start_keep_awake(bot: Bot):
+        if KEEP_AWAKE_MINUTES > 0:
+            # Kept on the dispatcher so the task is not garbage-collected.
+            dispatcher["keep_awake_task"] = asyncio.create_task(keep_awake())
+
     dispatcher.startup.register(on_startup)
+    dispatcher.startup.register(start_keep_awake)
 
     app = web.Application()
 

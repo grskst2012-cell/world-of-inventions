@@ -1,0 +1,15 @@
+# Backup for the bot's own keep-awake ping: a free Render service sleeps after
+# 15 minutes without requests. GitHub may delay scheduled runs, so this only
+# helps; the main ping runs inside bot.py.
+name: Keep the bot awake
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -fsS --max-time 90 https://world-of-inventions-bot.onrender.com/ || true
