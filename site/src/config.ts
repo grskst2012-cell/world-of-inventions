@@ -19,7 +19,7 @@ export const REPO_URL = '';
 
 // TODO: the address the site is deployed to (no trailing slash). It is only
 // used for the absolute Open Graph / Twitter image URL.
-export const SITE_URL = 'https://grskst2012-cell.github.io/world-of-inventions';
+export const SITE_URL = 'https://worldofinventions.github.io';
 
 export interface TeamMember {
   name: string;

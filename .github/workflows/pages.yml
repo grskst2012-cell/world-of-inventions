@@ -31,7 +31,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          SITE_URL: https://grskst2012-cell.github.io/world-of-inventions
+          SITE_URL: https://worldofinventions.github.io
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/dist

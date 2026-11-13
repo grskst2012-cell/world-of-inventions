@@ -52,5 +52,5 @@ On Render, `bot.py` sees `RENDER_EXTERNAL_URL` and switches from polling to a we
 
 - Do not run `bot.py` on your computer while the Render copy is live: polling removes the webhook.
 - A free service sleeps after 15 minutes without requests. `bot.py` pings its own address every 10 minutes (`KEEP_AWAKE_MINUTES`), with `.github/workflows/keep-bot-awake.yml` as a backup, so it runs 24/7 within the 750 free hours a month.
-- The site is published by GitHub Pages (`.github/workflows/pages.yml`) on every push: https://grskst2012-cell.github.io/world-of-inventions
+- The site is published by GitHub Pages (`.github/workflows/pages.yml`) on every push: https://worldofinventions.github.io
 - The free service has no permanent disk: favorites and statistics in SQLite reset on every restart or deploy.
