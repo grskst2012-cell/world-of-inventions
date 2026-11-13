@@ -81,7 +81,10 @@ def run_webhook():
     app = web.Application()
 
     async def health(_request):
-        return web.Response(text="World of Inventions bot is running.")
+        # Render sets RENDER_GIT_COMMIT: shows which version of the code is live.
+        version = os.getenv("RENDER_GIT_COMMIT", "local")[:7]
+        keep = f"every {KEEP_AWAKE_MINUTES:g} min" if KEEP_AWAKE_MINUTES > 0 else "off"
+        return web.Response(text=f"World of Inventions bot is running. Version {version}, keep-awake {keep}.")
 
     app.router.add_get("/", health)
     SimpleRequestHandler(dispatcher=dispatcher, bot=bot, secret_token=WEBHOOK_SECRET).register(app, path=WEBHOOK_PATH)
